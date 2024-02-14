@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-  background-color: rgba(26, 27, 38, 0.75);
+  background-color: rgba(21, 23, 32, 0.85);
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -92,12 +92,7 @@ window#waybar.empty #window {
   color: #7d9bba;
   /* color: #bf616a; */
   border-radius: 9.5px;
-  background-color: #1f2530;
-}
-
-#cava {
-  color: #c8d2e0;
-  background-color: #1f2530;
+  background-color: #151720;
 }
 
 #window,
@@ -106,28 +101,28 @@ window#waybar.empty #window {
   padding-right: 5px;
   margin: 0 0px;
   border-radius: 7.8px;
-  background-color: #1f2530;
+  background-color: #151720;
 }
 
 #cpu {
   color: #fb958b;
-  background-color: #1f2530;
+  background-color: #151720;
 }
 
 #memory {
   color: #ebcb8b;
-  background-color: #1f2530;
+  background-color: #151720;
 }
 
 #custom-power-menu {
   border-radius: 9.5px;
-  background-color: #1b242b;
+  background-color: #151720;
   border-radius: 7.5px;
   padding: 0 5px;
 }
 
 #custom-launcher {
-  background-color: #1b242b;
+  background-color: #151720;
   color: #6a92d7;
   border-radius: 7.5px;
   padding: 0 3px;
@@ -329,7 +324,7 @@ label:focus {
  
 
 #custom-updates {
-    background-color: #1f2530;
+    background-color: #151720;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 8px;

@@ -1,5 +1,9 @@
 vim.g.mapleader=' '
 
+vim.keymap.set('n', 'd', '"_d')
+vim.keymap.set('n', 'dd', '"_dd')
+vim.keymap.set('n', 'p', '"_dP')
+
 -- NeoTree
 vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>')
 vim.keymap.set('n', '<leader>o', ':Neotree git_status<CR>')
