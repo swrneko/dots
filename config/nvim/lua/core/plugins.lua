@@ -43,8 +43,7 @@ require("lazy").setup({
             'nvim-tree/nvim-web-devicons', 'linrongbin16/lsp-progress.nvim'
         }
     },
-    {"folke/which-key.nvim"},
-    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    {'folke/which-key.nvim'},
     {'terrortylor/nvim-comment'},
     {'MaximilianLloyd/ascii.nvim', 
     dependencies = {'MunifTanjim/nui.nvim'}
@@ -73,5 +72,6 @@ require("lazy").setup({
                 },
             })
         end,
-    }
+    },
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 })

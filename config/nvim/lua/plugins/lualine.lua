@@ -2,14 +2,14 @@
 -- Author: lokesh-krishna
 -- MIT license, see LICENSE for more details.
 -- stylua: ignore
-local colors = {
-    blue = '#86aaec',
-    cyan = '#93cee9',
-    black = '#151720',
-    white = '#cbced3',
-    red = '#dd6777',
-    violet = '#c296eb',
-    grey = '#4f5572'
+ local colors = {
+  blue   = '#714be3',
+  cyan   = '#a42ff7',
+  black  = '#000000000',
+  white  = '#c6c6c6',
+  red    = '#ff5189',
+  violet = '#7910c4',
+  grey   = '#151720',
 }
 
 local bubbles_theme = {
@@ -32,7 +32,7 @@ local bubbles_theme = {
 
 require('lualine').setup {
     options = {
-        theme = bubbles_theme,
+        theme = bubbles_theme, 
         component_separators = '|',
         section_separators = {left = '', right = ''}
     },

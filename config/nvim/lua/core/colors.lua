@@ -5,7 +5,7 @@ require("catppuccin").setup({
         dark = "mocha",
     },
     transparent_background = true, -- disables setting the background color.
-    show_end_of_buffer = true, -- shows the '~' characters after the end of buffers
+    show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
     term_colors = false, -- sets terminal colors (e.g. `g:terminal_color_0`)
     dim_inactive = {
         enabled = false, -- dims the background color of inactive window
@@ -29,7 +29,26 @@ require("catppuccin").setup({
         types = {},
         operators = {},
     },
-    color_overrides = {},
+    color_overrides = {
+        mocha = {
+            black = "#151720",
+            red = "#9e0561",
+            green = "#a82ee6",
+            yellow = "#8b39ad",
+            blue = "#5f34e0",
+            sky = "#bb66de",
+            -- magenta = "#623b8a",
+            -- cyan = "#9e0561",
+            -- white = "#c39ee8",
+            peach = "#7910c4", 
+            rosewater = "#7910c4",
+            mauve = "#7910c4",
+            maroon = "#7910c4",
+            pink = "#7910c4",
+            lavender = "#c39ee8", 
+            flamingo = "#714be3",
+        },
+    },
     custom_highlights = {},
     integrations = {
         neotree = true,
