@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-  background-color: rgba(21, 23, 32, 0.85);
+  background-color: rgba(21, 23, 32, 0.75);
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -22,7 +22,7 @@ window#waybar.hidden {
 
 #workspaces button {
   padding: 0 5px;
-  color: #7984A4;
+  color: #623b8a;
   background-color: transparent;
   /* Use box-shadow instead of border so the text isn't offset */
   box-shadow: inset 0 -3px transparent;
@@ -32,11 +32,11 @@ window#waybar.hidden {
 }
 
 #workspaces button.focused {
-  color: #b48ead;
+  color: #c416db;
 }
 
 #workspaces button.active {
-  color: #b48ead;
+  color: #c416db;
 }
 
 #workspaces button.urgent {
@@ -50,7 +50,7 @@ window#waybar.hidden {
   /* color: #64727d; */
      padding-left: 5px;
      padding-right: 5px;
-     color: #8fbcbb;
+     color: #db16d5;
 }
 
 window#waybar.empty #window {
@@ -88,8 +88,7 @@ window#waybar.empty #window {
 #custom-weather.snowyIcyNight,
 #custom-weather.default {
   padding: 0 10px;
-  color: #e5e5e5;
-  color: #7d9bba;
+  color: #9616db;
   /* color: #bf616a; */
   border-radius: 9.5px;
   background-color: #151720;
@@ -105,16 +104,17 @@ window#waybar.empty #window {
 }
 
 #cpu {
-  color: #fb958b;
+  color: #a316db;
   background-color: #151720;
 }
 
 #memory {
-  color: #ebcb8b;
+  color: #b016db;
   background-color: #151720;
 }
 
 #custom-power-menu {
+  color: #c8d2e0;
   border-radius: 9.5px;
   background-color: #151720;
   border-radius: 7.5px;
@@ -129,34 +129,34 @@ window#waybar.empty #window {
 }
 
 #custom-weather.severe {
-  color: #eb937d;
+  color: #9616db;
 }
 
 #custom-weather.sunnyDay {
-  color: #c2ca76;
+  color: #9616db;
 }
 
 #custom-weather.clearNight {
-  color: #cad3f5;
+  color: #9616db;
 }
 
 #custom-weather.cloudyFoggyDay,
 #custom-weather.cloudyFoggyNight {
-  color: #c2ddda;
+  color: #9616db;
 }
 
 #custom-weather.rainyDay,
 #custom-weather.rainyNight {
-  color: #5aaca5;
+  color: #9616db;
 }
 
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight {
-  color: #d6e7e5;
+  color: #9616db;
 }
 
 #custom-weather.default {
-  color: #dbd9d8;
+  color: #9616db;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -170,28 +170,28 @@ window#waybar.empty #window {
 }
 
 #pulseaudio {
-  color: #7d9bba;
+  color: #c416db;
 }
 
 #backlight {
   /* color: #EBCB8B; */
-  color: #8fbcbb;
+  color: #db16d5;
 }
 
 #clock {
-  color: #c8d2e0;
+  color: #d59dfc;
   /* background-color: #14141e; */
 }
 
 #battery {
-  color: #c0caf5;
+  color: #a316db;
   /* background-color: #90b1b1; */
 }
 
 #battery.charging,
 #battery.full,
 #battery.plugged {
-  color: #26a65b;
+  color: #a316db;
   /* background-color: #26a65b; */
 }
 
@@ -228,13 +228,12 @@ label:focus {
 }
 
 #network {
-  color: #b48ead;
+  color: #b016db;
 }
 
 #network.disconnected {
   color: #f53c3c;
 }
-
 #custom-media {
   background-color: #66cc99;
   color: #2a5c45;
@@ -335,9 +334,9 @@ label:focus {
 
 
 #custom-updates.updated {
-    color: #7984A4;
+    color: #9616db;
 }
 
 #custom-updates.has-updates {
-    color: #ebcb8b;
+    color: #9616db;
 }
