@@ -61,4 +61,4 @@ GRUB_DISABLE_RECOVERY=true
 # functionality install os-prober and uncomment to detect and include other
 # operating systems.
 #GRUB_DISABLE_OS_PROBER=false
-GRUB_THEME="/boot/grub/themes/xenlism-grub-arch-1080p/Xenlism-Arch/theme.txt"
+GRUB_THEME="/boot/grub/themes/CyberRe/theme.txt"
