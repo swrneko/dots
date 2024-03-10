@@ -124,11 +124,11 @@
     "on-scroll-down": "playerctl previous",
     },
     "custom/power-menu": {
-        "format": " <span color='#8916db'>⏻ </span>",
+        "format": "<span color='#8916db'></span>",
         "on-click": "bash ~/.config/waybar/scripts/powermenu.sh",
     }, 
     "custom/launcher": {
-        "format": " <span color='#6a92d7'> </span>",
+        "format": "<span color='#6a92d7'></span>",
         "on-click": "wofi",
     },
     
