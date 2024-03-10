@@ -5,24 +5,26 @@
      normal = { family = '0xProto Nerd Font Mono', style = 'Regular' }
 
 [window]
-     opacity = 0.75
+     opacity = 0.85
+     dynamic_padding = false
+     padding = {x = 10}
 
 [colors.normal]
      black = "#151720"
-     red = "#dd6777"
-     green = "#90ceaa"
-     yellow = "#ecd3a0"
-     blue = "#86aaec"
-     magenta = "#c296eb"
-     cyan = "#93cee9"
-     white = "#cbced3"
+     red = "#e610de"
+     green = "#8b39ad"
+     yellow = "#a82ee6"
+     blue = "#5f34e0"
+     magenta = "#623b8a"
+     cyan = "#7910c4"
+     white = "#c39ee8"
 
 [colors.bright]
-     black = "#4f5572"
-     red = "#e26c7c"
-     green = "#95d3af"
-     yellow = "#f1d8a5"
-     blue = "#8baff1"
-     magenta = "#c79bf0"
-     cyan = "#98d3ee"
-     white = "#d0d3d8"
+     black = "#343a52"
+     red = "#cf3e95"
+     green = "#bb66de"
+     yellow = "#f54cd1"
+     blue = "#714be3"
+     magenta = "#9056cc"
+     cyan = "#a42ff7"
+     white = "#c39ee8"

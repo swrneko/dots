@@ -1,0 +1,9 @@
+[Default Applications]
+image/jpeg=imv
+[Default Applications]
+image/png=imv
+[Default Applications]
+application/pdf=org.gnome.Evince.desktop
+application/png=org.gnome.imv.desktop
+application/jpg=org.gnome.imv.desktop
+application/gif=org.gnome.imv.desktop
