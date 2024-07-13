@@ -29,7 +29,6 @@ rfkill unblock wifi
  btrfs su cr /mnt/@home
  umount -R /mnt 
  mount -o subvol=@,compress=zstd /dev/sda3 /mnt
- 
  mkdir /mnt/home
  mount -o subvol=@home,compress=zstd /dev/sda3 /mnt/home
 mount /dev/sdb1 /mnt
