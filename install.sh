@@ -24,13 +24,16 @@ default_change() {
 
 main_loop() {
     exec rfkill unblock wifi
-    exec 
+    exec iwctl station wlan0 connect HUAWEI 
+    exec ping ya.ru>&1  
+    echo &1
 }
 
-main_loop_changed() {
-}
+# main_loop_changed() {
+# }
 
 default_change
+main_loop
 
 if [[ $output == 0 ]]
 then
