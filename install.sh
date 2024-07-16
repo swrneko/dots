@@ -11,36 +11,40 @@ default_change() {
 
     if [[ $answr == "y" ]]
     then
-        echo "ok"
         output=0
     elif [[ $answr == "n" ]]
     then
-        echo "not ok"
         output=1
     else
         default_change
     fi
 }
 
+start_loop() {
+    if [[ $output == 0 ]]
+    then
+        main_loop
+    elif [[ $output == 1 ]]
+    then
+        main_loop_changed
+    else
+        echo
+    fi
+}
+
 main_loop() {
-    exec rfkill unblock wifi
-    exec iwctl station wlan0 connect HUAWEI 
-    exec ping ya.ru>&1  
-    echo &1
+    rfkill unblock wifi
+    iwctl station wlan0 connect HUAWEI 
+    if ping ya.ru | grep -q "from"
+    then
+        return 1
+    else
+        exit 0
+    fi
 }
 
 # main_loop_changed() {
 # }
 
 default_change
-main_loop
-
-if [[ $output == 0 ]]
-then
-    main_loop
-elif [[ $output == 1 ]]
-then
-    main_loop_changed
-else
-    echo
-fi
+start_loop
