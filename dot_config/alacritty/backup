@@ -1,0 +1,28 @@
+[shell]
+     program = "/bin/zsh"
+
+[font]
+     normal = { family = '0xProto Nerd Font Mono', style = 'Regular' }
+
+[window]
+     opacity = 0.9
+
+[colors.normal]
+     black = "#0f0c1c"
+     red = "#651C93"
+     green = "#4F4793"
+     yellow = "#813E84"
+     blue = "#9B18A2"
+     magenta = "#B74DB4"
+     cyan = "#D3A2CA"
+     white = "#ede4e5"
+
+[colors.bright]
+     black = "#a59fa0"
+     red = "#651C93"
+     green = "#4F4793"
+     yellow = "#813E84"
+     blue = "#9B18A2"
+     magenta = "#B74DB4"
+     cyan = "#D3A2CA"
+     white = "#ede4e5"
