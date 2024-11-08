@@ -1,10 +1,15 @@
-require'nvim-treesitter.configs'.setup {
-  ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "bash", "rust", "python", "c_sharp", "haskell", "json", "php", "java", "javascript", "html", "css" },
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
-  sync_install = false,
-  auto_install = true,
+-- Customize Treesitter
 
-  highlight = {
-    enable = true,
-	},
+---@type LazySpec
+return {
+  "nvim-treesitter/nvim-treesitter",
+  opts = {
+    ensure_installed = {
+      "lua",
+      "vim",
+      -- add more arguments for adding more treesitter parsers
+    },
+  },
 }

@@ -1,4 +1,4 @@
-[shell]
+[terminal.shell]
      program = "/bin/zsh"
 
 [font]
@@ -28,3 +28,5 @@
      magenta = "#9056cc"
      cyan = "#a42ff7"
      white = "#c39ee8"
+
+[terminal]
