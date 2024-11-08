@@ -19,7 +19,7 @@ read -p "Do you want to change configuration on you'r machine to configuration f
 if [ "$want_config" = "y" ] || [ "$want_config" = "Y" ];
 then
   cd ~/ && git clone https://aur.archlinux.org/pakku.git && cd ~/pakku/ && makepkg -si
-  cd ~/dots && cp -r dot_config/* ~/.config
+  cd ~/dots && cp -r dot_config/* ~/.config && cp .Xauthority .Xresources .xinitrc ~/
   sudo cp some_another_files/pakku.conf /etc 
   sudo cp some_another_files/org.freecad.FreeCAD.desktop /usr/share/applications
   pakku -Syu waypaper-git swww mako waybar-module-pacman-updates-git wlr-protocols-git qwlroots-git webcord android-sdk-platform-tools ibus-daemon ibus-autostart
