@@ -2,6 +2,15 @@
 
 want_install=n
 want_config=n
+want_backup=y
+
+read "Would you like to make backup of .conkfig files? (Y/n): " want_backup
+if [ "$want_backup" = "y" ] || [ "$want_backup" = "Y" ];
+then 
+  sudo cp -r ~/.config ~/.config_bckp
+else
+  echo
+fi
 
 echo "It's the installation package and set config for source file script"
 read -p "Do you want to install packages? (y/N): " want_install
