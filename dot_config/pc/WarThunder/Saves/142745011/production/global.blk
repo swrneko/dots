@@ -1,0 +1,2567 @@
+version:i=3017
+
+content{
+  profile{
+    scoutTargetSuccess:i=192
+    scoutBinocularSuccess:i=0
+    footballTargetLockShown:i=0
+    automaticExtinguisher:b=yes
+    automaticRepair:b=no
+    automaticPump:b=no
+    globalSaveVersion:i=0
+    saveVersion:i=2
+    countryId2:i=3
+    firstFreeFlight:b=no
+    completedOneMission:i=1
+    seenNuclearEvent:b=no
+    seenBackgroundNuclearEvent:b=no
+    battleCntWithSupportPlane:i=0
+
+    warpoints_stat{}
+    last_played{
+      versusItem:t="guadalcanal_Conq2"
+    }
+
+    pedia_hints{}
+    seen_video{}
+    hints_count{
+      hint{
+        id:i=0
+        totalCount:i=4
+        realisticCount:i=0
+      }
+
+      hint{
+        id:i=9
+        totalCount:i=2
+        realisticCount:i=0
+      }
+
+      hint{
+        id:i=26
+        totalCount:i=21
+        realisticCount:i=4
+      }
+
+      hint{
+        id:i=27
+        totalCount:i=6
+        realisticCount:i=0
+      }
+
+      hint{
+        id:i=11
+        totalCount:i=10
+        realisticCount:i=0
+      }
+
+      hint{
+        id:i=15
+        totalCount:i=6
+        realisticCount:i=0
+      }
+
+      hint{
+        id:i=13
+        totalCount:i=6
+        realisticCount:i=0
+      }
+
+      hint{
+        id:i=12
+        totalCount:i=21
+        realisticCount:i=2
+      }
+
+      hint{
+        id:i=31
+        totalCount:i=1
+        realisticCount:i=0
+      }
+
+      hint{
+        id:i=14
+        totalCount:i=11
+        realisticCount:i=0
+      }
+    }
+  }
+
+  settings{
+    speed:t="kmh"
+    alt:t="meters_alt"
+    dist:t="km_dist"
+    climbSpeed:t="metersPerSecond_climbSpeed"
+    temperature:t="celsius_temperature"
+    wingLoading:t="kg_per_sq_meters_wing_loading"
+    powerToWeightRatio:t="hp_per_kg_power_to_weight_ratio"
+    radialSpeed:t="metersPerSecond_climbSpeed"
+    grassInTankVision:b=yes
+    selectedOnce:b=yes
+    indicatedSpeedType:i=0
+    indicatedAltitudeType:i=0
+    radarAltitudeAlert:r=60
+    horizontalSpeed:b=no
+    autoShowChat:b=yes
+    chatMessages:i=1
+    tacticalMapScale:i=1
+    chatFilter:b=yes
+    showPilot:b=yes
+    gunVerticalTargeting:b=yes
+    showDeflection:b=yes
+    showGyroSightDeflection:b=no
+    hudScreenshotLogo:b=yes
+    showIndicatorsMode:i=249
+    showIndicatorsModeTitle:b=yes
+    hudShowFuel:i=1
+    hudShowAmmo:i=0
+    hudShowTemperature:i=0
+    hudTpsCrosshairType:i=0
+    hudCrosshairColorPreset:i=0
+    autoPilotOnBombAndGunnerView:i=1
+    autoRearmOnAirfield:b=yes
+    enableLaserDesignatorBeforeLaunch:b=yes
+    seekerAutoStabilization:b=yes
+    activateAirborneRadarOnSpawn:b=yes
+    useRectangularRadarIndicator:b=no
+    radarTargetCycling:b=yes
+    useRadarAimElevationControl:b=yes
+    rwrSensitivity:r=1
+    useRadarHudInCockpit:b=yes
+    useTwsHudInCockpit:b=yes
+    activateAirborneActiveCounterMeasuresOnSpawn:b=yes
+    activateAirborneWeaponSelectionOnSpawn:b=no
+    activateBombsAutoReleaseOnSpawn:b=yes
+    automaticEmptyContainersJettison:b=no
+    hintsMask:i=2176
+    autosaveReplays:b=yes
+    showAttachables:b=yes
+    enableXrayDeath:b=yes
+    enableXrayKill:b=yes
+    isSubtitles:i=2
+    isSubtitlesRadio:i=0
+    vwsOnlyInCockpit:b=no
+    usePTT:b=yes
+    useVoiceChat:b=no
+    voiceMessageVoice:i=1
+    viewType:i=0
+    enableControllerLight:b=yes
+    useOculusToAimHelicopter:b=no
+    autoPilotOnGunnerViewHelicopter:i=1
+    hideMouseInSpectator:b=no
+    fixGunInMouseLook:b=no
+    delayedDownloadContent:b=no
+    replaySnapshotsEnabled:b=no
+    recordSnapshotPeriod:i=60
+    preferredDifficulty:i=-1
+    preferredTeam:i=0
+    voiceLanguageType:i=0
+    aerobaticsSmokeType:i=1
+    aerobaticsSmokeColors:i=73
+    gunConvergenceDistance:i=600
+    bombDelayExplosion:r=0
+    depthChargeDelayExplosion:r=3
+    bombActivationType:i=0
+    rocketFuseDist:r=0
+    torpedoDiveDepth:r=1
+    countermeasuresSeries:i=1
+    countermeasuresPeriods:r=0.1
+    countermeasuresSeriesPeriods:r=1
+    bombSeries:i=0
+    hudColor:i=0
+    hudIndicators:i=0
+    hangarSound:b=no
+    usePerfectRangefinder:b=yes
+    saveAiTargetType:b=yes
+    defaultAiTargetType:i=1
+    enableSoundSpeed:b=no
+    aiGunnerTime:i=1
+    favoriteVoiceMessage1:i=-1
+    favoriteVoiceMessage2:i=-1
+    favoriteVoiceMessage3:i=-1
+    favoriteVoiceMessage4:i=-1
+    favoriteVoiceMessage5:i=-1
+    favoriteVoiceMessage6:i=-1
+    favoriteVoiceMessage7:i=-1
+    favoriteVoiceMessage8:i=-1
+    favoriteVoiceMessage9:i=-1
+    favoriteVoiceMessage10:i=-1
+    favoriteVoiceMessage11:i=-1
+    favoriteVoiceMessage12:i=-1
+    timesIntroVideoPlayed:i=2
+    graphicsAutodetectGpuTimeAvg:r=0
+    graphicsAutodetectGpuInfo:t="amd radeon rx 580 2048sp (radv polaris10)"
+    graphicsAutodetectTimestamp:r=1.73071e+09
+    enableInstructorGroundAvoidance:b=yes
+    enableInstructorGearControl:b=yes
+    enableInstructorFlapsControl:b=yes
+    enableInstructorEngineControl:b=yes
+    enableInstructorSimpleJoy:b=yes
+    storeZoomMapByLevel:b=no
+    needShowCompassInTankHud:b=no
+    pitchBlockerWhileBraking:b=no
+    commanderCameraInViews:i=0
+    saveDirWhileSwitchTrigger:b=no
+    hudArcade:t="default"
+    hudRealistic:t="default"
+    hudHardcore:t="default"
+    showDestroyedParts:b=yes
+    activateGroundRadarOnSpawn:b=yes
+    groundRadarTargetCycling:b=yes
+    activateGroundActiveCounterMeasuresOnSpawn:b=yes
+    tankGunnerCameraFromSight:b=no
+    saveZoomCameraSetting:i=0
+    playInactiveWindowSound:b=yes
+    advancedHitIndicatorSimplified:b=no
+    lwsAzimuthIndicatorTimeout:i=2
+    lwsAzimuthIndicatorTimeoutHelicopter:i=2
+    freeCameraZoomSpeed:i=50
+    replayCameraFov:i=90
+
+    customSettings{
+      sendNuclearStatistic:b=no
+      needAutoStartBattle:b=no
+      lastWonInVersion:i=547
+      fonts_css:t="medium"
+      delayDownloadContent:b=no
+      voiceChatShowCount:i=2
+      artilleryTargettingUseMapFirst:b=yes
+      bannedSkins:t="ussr_is_3/ussr_camo_winter_lines"
+
+      accounts{
+        142745011.production{
+          selected_random_battle:t="tank_event_in_random_battles_historical"
+          upgradeCrewSpecTutorialPassed:b=yes
+          "statistic:new_player_tutorial_choice":b=yes
+          firstRunTutorial_tutorial_tank_basics_arcade:b=yes
+          firstRunTutorial_tutorial_tank_basics_arcade_part2:b=yes
+          firstRunTutorial_tutorialB_fighter:b=yes
+          firstRunTutorial_tutorialB_assaulter:b=yes
+          firstRunTutorial_tutorialB_bomber:b=yes
+          firstRunTutorial_tutorial_boat_basic_arcade:b=yes
+          skip_tutorial_bitmask:i=128
+          leaderboards_type:i=0
+          needSkipSpareActivationConfirm:b=no
+
+          slotbar_presets{
+            presetsVersion:i=1
+
+            country_usa{
+              preset:t="0|0,1,26|p-26a_34_m2,p-26b_35,p-26a_33|Авиация|air_realistic|"
+              preset:t="0|0,1|us_m2a4,us_lvt_a_1|Армия|tank_event_in_random_battles_historical|"
+              preset:t="0|0|us_destroyer_clemson_litchfield|Большой флот|ship_event_in_random_battles_arcade|"
+              preset:t="0|0|us_pt6|Малый флот|ship_new_players_battle_coop|"
+              selected:i=1
+            }
+
+            country_germany{
+              preset:t="2|2,3|he51a1,he51b1|Авиация|air_arcade|"
+              preset:t="2|2,3|germ_pzkpfw_III_ausf_E,germ_pzkpfw_35t|Армия|tank_event_in_random_battles_arcade|"
+              preset:t="2|2|germ_destroyer_class1924_leopard1932|Большой флот|ship_event_in_random_battles_arcade|"
+              preset:t="2|2|germ_ls_class|Малый флот|ship_event_in_random_battles_arcade|"
+              selected:i=1
+            }
+
+            country_britain{
+              preset:t="6|6,7|fury_mk1,fury_mk2|Авиация|air_arcade|"
+              preset:t="6|6,7|uk_a_13_mk1,uk_a17_mk_1_tetrarch|Армия|tank_event_in_random_battles_arcade|"
+              preset:t="6|6|uk_destroyer_v_class_vega|Большой флот|ship_event_in_random_battles_arcade|"
+              preset:t="6|6|uk_mtb_1series|Малый флот|ship_event_in_random_battles_arcade|"
+              selected:i=0
+            }
+
+            country_japan{
+              preset:t="8|8,9,20,21,27|g4m1,d3a1,ki_43_1,ki_21_1ko,j1n1_mod11_early|Авиация|air_realistic|"
+              preset:t="27|8,9,20,21,27|jp_type_5_na_to,jp_type_3_chi_nu,d3a1,jp_m24_chaffee,jp_halftrack_m16|Армия|tank_event_in_random_battles_historical|"
+              preset:t="9|8,9,20|jp_destroyer_mutsuki,jp_t14_class,jp_type_t1_1941|Большой флот|ship_new_players_battle_coop|"
+              preset:t="8|8,9,20|jp_t14_class,ki_10_1_commander,a5m4_hagiri|Малый флот|ship_new_players_battle_coop|"
+              selected:i=1
+            }
+
+            country_china{
+              preset:t="14|14,15|i-15bis_china,gladiator_mk1_china|Авиация|air_arcade|"
+              preset:t="14|14,15,24,25|cn_type_97_chi_ha,cn_sdkfz_222_early,cn_m8_scott,cn_su_76m_1943|Армия|tank_event_in_random_battles_historical|"
+              selected:i=1
+            }
+
+            country_italy{
+              preset:t="10|10,11|cr_32,cr_32_quater|Авиация|air_arcade|"
+              preset:t="10|10,11|it_ab_41,it_l6|Армия|tank_event_in_random_battles_arcade|"
+              preset:t="10|10|it_destroyer_turbine|Большой флот|ship_event_in_random_battles_arcade|"
+              preset:t="10|10|it_mas_classe500_3_1944|Малый флот|ship_event_in_random_battles_arcade|"
+              selected:i=1
+            }
+
+            country_france{
+              preset:t="12|12,13|d_371,d_373|Авиация|air_arcade|"
+              preset:t="12|12,13|fr_amd_35,fr_hotchkiss_h39|Армия|tank_event_in_random_battles_arcade|"
+              selected:i=0
+            }
+
+            country_sweden{
+              preset:t="16|16,17|gladiator_j8a,j6b|Авиация|air_arcade|"
+              preset:t="16|16,17|sw_strv_m31,sw_strv_m38|Армия|tank_event_in_random_battles_arcade|"
+              selected:i=1
+            }
+
+            country_israel{
+              preset:t="-1|||Набор №1||18,19"
+              selected:i=0
+            }
+
+            country_ussr{
+              preset:t="4|4,5,22,23|mig_3_series_1_15,yak_2_kabb,i-16_type5,bb-1|Авиация|air_realistic|"
+              preset:t="4|4,5,22,23,28|ussr_t_34_1941_57,ussr_su_152,ussr_t_34_1942,db_3b,ussr_kv_1s|Армия|tank_event_in_random_battles_historical|4,5,22,23,28"
+              preset:t="4|4|ussr_destroyer_frunze|Большой флот|tank_event_in_random_battles_arcade|"
+              preset:t="4|4|ussr_g5_mtb|Малый флот|ship_event_in_random_battles_arcade|"
+              selected:i=1
+            }
+          }
+
+          tutor{
+            tutorialVersion:i=1
+            takeUnit:b=yes
+            researchUnit:b=yes
+            slotbar_presets_tutorial_counter:i=1
+            researchMod:b=yes
+            newUnitTypetoBattle:b=yes
+
+            newbieBattles{
+              unitsRank{
+                0:i=2
+                1:i=3
+                4:i=1
+                2:i=1
+              }
+            }
+          }
+
+          seen{
+            help_mission_type{
+              missionGroundStrikeComplete:i=1
+              missionGroundCapture:i=1
+              missionAirDomination:i=1
+              missionAirfieldCapture:i=1
+            }
+
+            gameModes{
+              game_mode_item_ship_new_players_battle_coop:b=yes
+              game_mode_item_tank_event_in_random_battles_arcade:b=yes
+              game_mode_item_air_arcade:b=yes
+              game_mode_item_tank_event_in_random_battles_historical:b=yes
+              game_mode_item_air_realistic:b=yes
+              game_mode_item_custom_mode_fullreal:b=yes
+              game_mode_item_pve_main_tank_arcade:b=yes
+              game_mode_item_pve_main_air_arcade:b=yes
+              game_mode_item_world_war_featured_game_mode:b=yes
+              game_mode_item_tss_featured_game_mode:b=yes
+            }
+
+            promo_collapsed{
+              recent_items_mainmenu_button:b=no
+            }
+
+            battletasks{
+              Medium_TankSB_streaks_capturer_140324_1635:i=739325
+              Medium_AirSB_assists_140324_1635:i=739325
+              Medium_TankRB_kills_of_tank_destroyer_140324_1635:i=739325
+              Easy_AirRB_activity_140324_1635:i=739325
+              Medium_AirAB_gkills_on_assault_170324_1243:i=739327
+              Medium_ShipAB_gkills_on_assault_170324_1243:i=739327
+              Easy_AirAB_win_140324_1635:i=739325
+              Medium_AirRB_win_140324_1635:i=739325
+              Medium_ShipRB_activity_140324_1635:i=739325
+              Easy_AirRB_streaks_nearHeroic_170324_1243:i=739327
+              Easy_AirSB_kills_on_fighter_140324_1635:i=739325
+              Easy_AirAB_gkills_on_bomber_170324_1243:i=739327
+              Medium_ShipRB_streaks_firstBlood_170324_1243:i=739327
+              Easy_TankRB_streaks_140324_1635:i=739325
+              Medium_ShipAB_destroyer_sniper_shot_140324_1635:i=739325
+              Easy_TankAB_place_win_140324_1635:i=739325
+              Easy_ShipAB_naval_kills_170324_1243:i=739327
+              Medium_TankAB_activity_170324_1243:i=739327
+              Easy_ShipRB_streaks_capturer_170324_1243:i=739327
+              Medium_AirRB_place_170324_1243:i=739327
+              Medium_TankSB_place_win_170324_1243:i=739327
+              Medium_AirAB_crits_140324_1635:i=739325
+              Medium_AirSB_kills_of_assault_170324_1243:i=739327
+              Easy_ShipRB_streaks_capturer_140324_1635:i=739325
+              Medium_TankAB_kills_of_SPAA_140324_1635:i=739325
+              Easy_TankSB_win_140324_1635:i=739325
+              Easy_ShipAB_kills_on_captured_zone_140324_1635:i=739325
+              Easy_TankRB_kills_on_SPAA_170324_1243:i=739327
+              Easy_TankSB_activity_170324_1243:i=739327
+              Easy_TankAB_ground_kills_170324_1243:i=739327
+              Medium_TankRB_place_170324_1243:i=739327
+              Easy_AirSB_assists_170324_1243:i=739327
+            }
+          }
+
+          wnd{
+            diffMode:i=0
+            battleLogFilterDebriefing:i=0
+            attachablesCategory:t=""
+            decalsCategory:t="common/un_flags"
+          }
+
+          popup{
+            2023_bo_105cb2_sale_popup:i=738932
+            2023_sw_cv_90105_tml_popup:i=738960
+            2023_03_thunder_cup_popup:i=738963
+            2023_05_air_superiority_popup:i=739011
+            2024_t14_wiki_popup:i=739357
+          }
+
+          warbonds{
+            lastReachedShopMonth:t="dateblock_bp_season11"
+            lastReachedShopLevel:i=0
+          }
+
+          actionBar{
+            isCollapsed:b=no
+          }
+
+          worldWar{
+            lastReadLog{
+              operation-1:t=""
+            }
+          }
+
+          selected_crews{
+            country_ussr:i=3
+          }
+        }
+      }
+
+      seen{
+        night_battle_window:b=yes
+        need_hide_decorators_unseen:b=no
+
+        titles{
+          title_tank:i=738954
+          title_promising_pilot:i=738975
+        }
+
+        workshopCraftTree{
+          craft_event_2023_spring:b=yes
+        }
+
+        suggestedUnitsSkins{
+          ki_43_1{
+            b762f000-5a1e-406b-b033-52c0dfa43067:i=1682155730
+            lastSuggestedDate:i=1682155730
+          }
+
+          ussr_is_3{
+            4a22f000-5a1e-406b-b033-52c0dfa43067:i=1711707259
+            lastSuggestedDate:i=1711707259
+          }
+
+          ussr_su_76m_1943{
+            9222f000-5a1e-406b-b033-52c0dfa43067:i=1711743882
+            lastSuggestedDate:i=1711743882
+          }
+
+          ussr_kv_1_L_11{
+            dbe2f000-5a1e-406b-b033-52c0dfa43067:i=1713884686
+            lastSuggestedDate:i=1713884686
+          }
+        }
+
+        suggestionShowDecalsOnOtherPlayers{
+          show:b=yes
+        }
+
+        avatars{
+          cardicon_20:i=739339
+          cardicon_tanker_jp_02:i=738990
+          cardicon_fem_02:i=739339
+          cardicon_24:i=739339
+          cardicon_03:i=739339
+          cardicon_09:i=739339
+          cardicon_10:i=739339
+          cardicon_19:i=739339
+          cardicon_07:i=739339
+          cardicon_08:i=739339
+          cardicon_16:i=739339
+          cardicon_06:i=739339
+          cardicon_12:i=739339
+          cardicon_tanker_jp_01:i=738990
+          cardicon_28:i=739339
+          cardicon_11:i=739339
+          cardicon_14:i=739339
+          cardicon_17:i=739339
+          cardicon_05:i=739339
+          cardicon_15:i=739339
+          cardicon_default:i=739339
+          cardicon_tanker_sw_01:i=738960
+          cardicon_fem_06:i=739339
+          cardicon_fem_01:i=739339
+          cardicon_22:i=739339
+          cardicon_tanker_ussr_06:i=738960
+          cardicon_25:i=739339
+          cardicon_fem_03:i=739339
+          cardicon_tanker_cn_01:i=738960
+          cardicon_26:i=739339
+        }
+
+        unlock_markers{
+          2024_04_05_history_pages_trophy_gift:i=739347
+          2023_03_09_history_pages_trophy_gift:i=738954
+          2023_03_16_history_pages_trophy_gift:i=738960
+          2023_04_13_history_pages_trophy_gift:i=738990
+          2023_02_15_history_pages_trophy_gift:i=738931
+          2024_04_15_t14_decal:i=739357
+        }
+
+        decorators{
+          helmet_1938:i=739373
+          jerrycan:i=739373
+          gazmask:i=739373
+          ussr_tank_helmet:i=739373
+        }
+
+        items_shop{
+          booster_shop_pub_wp_10:i=739379
+          booster_shop_pub_rp_10:i=739379
+          booster_shop_rp_75_10mp:i=739379
+          booster_shop_rp_15_10mp:i=739379
+          booster_shop_wp_75_10mp:i=739379
+          booster_shop_wp_40_10mp:i=739379
+          booster_shop_wp_15_10mp:i=739379
+          booster_shop_rp_40_10mp:i=739379
+        }
+
+        inventory{
+          wager_3stages_tankAntiAircraft:i=739559
+          wager_3stages_missionMaker:i=739559
+          order_streak:i=739559
+          order_revengeHunt:i=739559
+          wager_10win10kills_10fail_everyDayAward:i=739559
+          item_universal_spare:i=739559
+          order_eventMul_kill:i=739559
+          order_randomHunt:i=739559
+          universal_spare_tank_r16:i=739559
+          wager_10win_3fail_everyDayAward:i=739559
+          order_score:i=739559
+          wager_10stages_heroicStreak_combined:i=739559
+          wager_10stages_squadBest_250k:i=739559
+          wager_3win5kills_3fail_everyDayAward:i=739559
+          order_universalKiller:i=739559
+          wager_10winHeroic_wingman_3fail_everyDayAward:i=739559
+        }
+
+        events{
+          air_simulation_timeDelay_battles:i=739559
+          tank_random_battles_simulation_1:i=739559
+          tank_random_battles_simulation:i=739559
+          helicopter_pve_H2M:i=739559
+        }
+      }
+
+      tutor{
+        fontChange:b=yes
+
+        dmViewer{
+          isAvailable:b=yes
+        }
+      }
+
+      myStats{
+        newbieEndedByArmyId{
+          aviation:b=yes
+          army:b=yes
+          ships:b=no
+        }
+      }
+
+      gpuBenchmark{
+        seen:b=yes
+        gpuName:t="AMD Radeon RX 580 2048SP (RADV POLARIS10)"
+      }
+
+      show_slot_info_panel_tab{
+        mainmenu:i=0
+        showroom:i=0
+      }
+
+      changelog{
+        lastSeenVersionInfoNum:i=36110455
+        lastLoadedVersionNum:i=36110455
+      }
+
+      voted_polls{}
+      useropt{
+        bomb_activation_time{
+          0:r=0
+          1:r=0
+        }
+
+        bomb_activation_type{
+          0:i=0
+          1:i=0
+        }
+      }
+
+      1440x900{
+        contacts_sizes:t='{"pos":[599,205],"size":[225,495]}'
+        menu_chat_sizes:t='{"pos":[73,205],"size":[525,495],"usersSize":[155,461]}'
+      }
+
+      chatRooms{}
+      protectionAnalysis{
+        cbVerticalAngleValue:b=yes
+      }
+
+      skins{}
+      viralAcquisition{
+        resetDays:i=1
+        lastLoginDay:i=739559
+        lastShowTime:i=739559
+      }
+
+      mislist_collapsed_chapters{
+        training:t=""
+        benchmark:t=""
+      }
+
+      workshop{
+        known{}
+      }
+
+      weaponPreset{
+        favorite{
+          p-26a_34_m2{
+            presetId:t="P-26A_1934_2x100lbs"
+          }
+        }
+      }
+
+      contacts{
+        recent{
+          82496438:i=1715279416
+        }
+      }
+
+      hintsSeenData{
+        27{
+          seenCount:i=6
+          seenTime:i=1710434285
+        }
+
+        9{
+          seenCount:i=2
+          seenTime:i=1710434285
+        }
+
+        26{
+          seenCount:i=21
+          seenTime:i=1710434285
+        }
+
+        15{
+          seenCount:i=6
+          seenTime:i=1710434285
+        }
+
+        13{
+          seenCount:i=6
+          seenTime:i=1710434285
+        }
+
+        11{
+          seenCount:i=10
+          seenTime:i=1710434285
+        }
+
+        12{
+          seenCount:i=21
+          seenTime:i=1710434285
+        }
+
+        14{
+          seenCount:i=11
+          seenTime:i=1710434285
+        }
+
+        0{
+          seenCount:i=4
+          seenTime:i=1710434285
+        }
+
+        28{
+          seenCount:i=5
+          seenTime:i=1714240117
+        }
+
+        11239{
+          seenCount:i=0
+          seenTime:i=1715453739
+        }
+
+        11229{
+          seenCount:i=2
+          seenTime:i=1730714287
+        }
+      }
+
+      personalOffer{
+        8e4ea5065124bb8bc22453b7fcaa19a523e8eacbbac4667ef140ad7b6afd2200{
+          finishTime:i=1712180173
+          visibleOfferCount:i=1
+          hasSendToBq:b=yes
+        }
+
+        6f280953da3d18e5349a38a5c8f383bc6de50f8c16e72c57f8c2fc5fc2ec557a{
+          finishTime:i=1712572568
+          visibleOfferCount:i=1
+          hasSendToBq:b=yes
+        }
+
+        884d50ca850308d3cb24128f9cf23dcbef7caa985d0bfc207f3808d35799adc9{
+          finishTime:i=1712618402
+          visibleOfferCount:i=1
+          hasSendToBq:b=yes
+        }
+
+        14a332cecacd835260811ed489aa4f0bfaa7504f6fd208374f67c722346970da{
+          finishTime:i=1713302639
+          visibleOfferCount:i=1
+          hasSendToBq:b=yes
+        }
+
+        24b7c4a8069235087c05b1985aa7aef872821a072a1df275ea0d17e66b1c9a24{
+          finishTime:i=1713709973
+          visibleOfferCount:i=1
+          hasSendToBq:b=yes
+        }
+
+        975d2a2004377d3c2e6f82e33069d2800f20e54de3934e8ecb5e113b5b9062db{
+          hasSendToBq:b=yes
+          finishTime:i=1717264157
+          visibleOfferCount:i=1
+        }
+
+        8e9d5a3c876afaddace436352fbbb0face38e7587d83b92b10580a782f015b90{
+          finishTime:i=1717365839
+          visibleOfferCount:i=1
+          hasSendToBq:b=yes
+        }
+      }
+
+      worldWar{
+        seasonOverNotice{
+          day:i=739347
+        }
+      }
+
+      emailVerification{
+        lastSeenDate:i=1730713278
+      }
+    }
+
+    internetRadioSettings{
+      station:t="Ulitka"
+      active:b=no
+    }
+
+    unitsSettings{
+      ki_10_1_commander{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      a5m4_hagiri{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_BULLETS0:t="7_7_stealth"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_t14_class{
+        USEROPT_BULLETS0:t="13mm_type93_naval_universal"
+        USEROPT_BULLETS1:t="13mm_type93_naval_universal"
+        USEROPT_BULLETS2:t="13mm_type93_naval_universal"
+        USEROPT_BULLETS3:t="13mm_type93_naval_universal"
+        USEROPT_BULLETS4:t="13mm_type93_naval_universal"
+        USEROPT_BULLETS5:t="13mm_type93_naval_universal"
+        USEROPT_BULLET_COUNT0:i=60
+      }
+
+      jp_type_98_ke_ni{
+        USEROPT_BULLETS0:t="37mm_type_94_APHE"
+        USEROPT_BULLETS1:t="37mm_type_94_APHE"
+        USEROPT_BULLETS2:t="37mm_type_94_APHE"
+        USEROPT_BULLETS3:t="37mm_type_94_APHE"
+        USEROPT_BULLET_COUNT0:i=40
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_type_89b_i_go_otsu{
+        USEROPT_BULLETS0:t="57mm_type_90_AP"
+        USEROPT_BULLETS1:t="57mm_Type3_HEAT"
+        USEROPT_BULLETS2:t="57mm_Type3_HEAT"
+        USEROPT_BULLETS3:t="57mm_Type3_HEAT"
+        USEROPT_BULLET_COUNT0:i=15
+        USEROPT_BULLET_COUNT1:i=35
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ki_10_1{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      jp_type_2_ka_mi{
+        USEROPT_BULLET_COUNT0:i=132
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t="37mm_type_1_APHE"
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ki_32{
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_WEAPONS:t="ki_32_default"
+      }
+
+      f-86f-40_japan_blue_impulse{
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t="50cal_universal"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ki-27_otsu{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_BULLETS0:t="7_7_stealth"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ki_10_2{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_ROCKET_FUSE_DIST:i=0
+      }
+
+      jp_type_75_mlrs{
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_WEAPONS:t="jp_type_75_mlrs_default"
+      }
+
+      jp_type_4_ho_ro{
+        USEROPT_BULLETS1:t="150mm_jp_type_92_HE"
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLET_COUNT0:i=28
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_hiro_sha{
+        USEROPT_BULLETS0:t="120mm_jp_HE"
+        USEROPT_BULLETS1:t="120mm_jp_SAP"
+        USEROPT_BULLETS2:t="120mm_jp_SAP"
+        USEROPT_BULLETS3:t="120mm_jp_SAP"
+        USEROPT_BULLET_COUNT0:i=2
+        USEROPT_BULLET_COUNT1:i=14
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_type_97_chi_ha{
+        USEROPT_BULLETS0:t="57mm_type_90_AP"
+        USEROPT_BULLETS1:t="57mm_Type3_HEAT"
+        USEROPT_BULLETS2:t="57mm_Type3_HEAT"
+        USEROPT_BULLETS3:t="57mm_Type3_HEAT"
+        USEROPT_BULLET_COUNT0:i=40
+        USEROPT_BULLET_COUNT1:i=25
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_type_2_ho_i{
+        USEROPT_BULLETS1:t="75mm_type94_HE"
+        USEROPT_BULLETS2:t="75mm_type2_HEAT"
+        USEROPT_BULLETS3:t="75mm_jp_Smoke"
+        USEROPT_BULLET_COUNT0:i=20
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=25
+        USEROPT_BULLET_COUNT3:i=2
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      i-15_1935{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      i-15_1934{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      ussr_t_26_1940{
+        USEROPT_BULLET_COUNT0:i=80
+        USEROPT_BULLETS1:t="45mm_ussr_AP_1942"
+        USEROPT_BULLETS2:t="45mm_ussr_AP_1942"
+        USEROPT_BULLETS3:t="45mm_ussr_AP_1942"
+        USEROPT_BULLET_COUNT1:i=60
+      }
+
+      ussr_bt_5{
+        USEROPT_BULLET_COUNT0:i=30
+        USEROPT_BULLETS1:t="45mm_ussr_AP_1942"
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      i-15_1935_moscow{
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      bb-1{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t="shkas_universal"
+        USEROPT_WEAPONS:t="bb-1_fab100_x4"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS1:t="shkas_turret_ap"
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      i-16_type5{
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      yak_2_kabb{
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t="shkas_universal"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_WEAPONS:t="yak_2_kabb_4x100kg"
+      }
+
+      ussr_t_26_4{
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t="76mm_ussr_KT28_HE"
+        USEROPT_BULLETS2:t="76mm_ussr_KT28_Shrapnel"
+        USEROPT_BULLETS3:t="76mm_ussr_KT28_Shrapnel"
+        USEROPT_BULLET_COUNT0:i=30
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=10
+      }
+
+      ussr_su_5_1{
+        USEROPT_BULLETS1:t="76mm_ussr_HE"
+        USEROPT_BULLETS2:t="76mm_ussr_Shrapnel"
+        USEROPT_BULLETS3:t="76mm_AP_1942"
+        USEROPT_BULLET_COUNT0:i=8
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT3:i=0
+      }
+
+      ussr_su_76m_1943{
+        USEROPT_BULLETS1:t="76mm_ussr_HE"
+        USEROPT_BULLETS2:t="76mm_ussr_Shrapnel"
+        USEROPT_BULLETS3:t="76mm_HEAT_1944"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_WEAPONS:t="ussr_su_76m_1943_default"
+        USEROPT_BULLET_COUNT3:i=30
+      }
+
+      ussr_t_60_1941{
+        USEROPT_BULLET_COUNT0:i=13
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t="20mm_ussr_TNSh_AP"
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT1:i=0
+      }
+
+      ussr_bt_7_1937{
+        USEROPT_BULLET_COUNT0:i=50
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t="45mm_ussr_AP_1942"
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT1:i=0
+      }
+
+      ussr_bt_7_m{
+        USEROPT_BULLET_COUNT0:i=50
+        USEROPT_BULLETS1:t="45mm_ussr_AP_1942"
+        USEROPT_BULLET_COUNT1:i=20
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_gaz_4m{
+        USEROPT_BULLET_COUNT0:i=16
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_t_50{
+        USEROPT_BULLET_COUNT0:i=50
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t="45mm_ussr_AP_1942"
+        USEROPT_BULLETS2:t="45mm_ussr_APCR"
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_WEAPONS:t="ussr_t_50_default"
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=5
+      }
+
+      ussr_t_70_1942{
+        USEROPT_BULLET_COUNT0:i=35
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_t_80{
+        USEROPT_BULLETS1:t="45mm_ussr_HE"
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLET_COUNT0:i=40
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_WEAPONS:t="ussr_t_80_default"
+      }
+
+      sw_strv_m31{
+        USEROPT_BULLET_COUNT0:i=50
+      }
+
+      sw_strv_m38{
+        USEROPT_BULLET_COUNT0:i=40
+      }
+
+      cn_m8_greyhound{
+        USEROPT_BULLET_COUNT0:i=20
+        USEROPT_BULLETS1:t="37mm_usa_m3_APC"
+        USEROPT_BULLETS2:t="37mm_usa_m3_APC"
+        USEROPT_BULLETS3:t="37mm_usa_m3_APC"
+        USEROPT_BULLET_COUNT1:i=15
+      }
+
+      cn_t_26_1940{
+        USEROPT_BULLET_COUNT0:i=60
+        USEROPT_BULLETS1:t="45mm_ussr_AP_1942"
+        USEROPT_BULLETS2:t="45mm_ussr_AP_1942"
+        USEROPT_BULLETS3:t="45mm_ussr_AP_1942"
+        USEROPT_BULLET_COUNT1:i=20
+      }
+
+      fr_amd_35{
+        USEROPT_BULLETS0:t="25mm_SA34_APC"
+        USEROPT_BULLETS1:t="25mm_SA34_APC"
+        USEROPT_BULLETS2:t="25mm_SA34_APC"
+        USEROPT_BULLETS3:t="25mm_SA34_APC"
+        USEROPT_BULLET_COUNT0:i=48
+      }
+
+      fr_hotchkiss_h39{
+        USEROPT_BULLETS0:t="37mm_SA38_APC"
+        USEROPT_BULLETS1:t="37mm_SA38_APC"
+        USEROPT_BULLETS2:t="37mm_SA38_APC"
+        USEROPT_BULLETS3:t="37mm_SA38_APC"
+        USEROPT_BULLET_COUNT0:i=76
+      }
+
+      cn_m8_scott{
+        USEROPT_BULLETS0:t="75mm_usa_HE"
+        USEROPT_BULLETS1:t="75mm_usa_M66_HEAT"
+        USEROPT_BULLETS2:t="75mm_us_M89_Smoke"
+        USEROPT_BULLETS3:t="75mm_usa_M66_HEAT"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLET_COUNT1:i=20
+        USEROPT_BULLET_COUNT2:i=0
+      }
+
+      jp_type_97_kai{
+        USEROPT_BULLETS0:t="47mm_type1_APHE"
+        USEROPT_BULLETS1:t="47mm_type1_APHE"
+        USEROPT_BULLETS2:t="47mm_type1_APHE"
+        USEROPT_BULLETS3:t="47mm_type1_APHE"
+        USEROPT_BULLET_COUNT0:i=50
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_type_94{
+        USEROPT_BULLET_COUNT0:i=20
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t="20mm_jp_type100_HE"
+        USEROPT_BULLETS2:t="20mm_jp_type100_AP"
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_WEAPONS:t="jp_type_94_default"
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=0
+      }
+
+      jp_type_3_ho_ni_I{
+        USEROPT_BULLETS1:t="75mm_type94_HE"
+        USEROPT_BULLETS2:t="75mm_jp_Smoke"
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLET_COUNT0:i=25
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT2:i=3
+      }
+
+      jp_type_1_chi_he{
+        USEROPT_WEAPONS:t="jp_type_1_chi_he_default"
+        USEROPT_BULLETS0:t="47mm_type1_APHE"
+        USEROPT_BULLETS1:t="47mm_type1_HE"
+        USEROPT_BULLETS2:t="47mm_type1_HE"
+        USEROPT_BULLETS3:t="47mm_type1_HE"
+        USEROPT_BULLET_COUNT0:i=60
+        USEROPT_BULLET_COUNT1:i=10
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_type_3_chi_nu{
+        USEROPT_WEAPONS:t="jp_type_3_chi_nu_default"
+        USEROPT_BULLETS1:t="75mm_type94_HE"
+        USEROPT_BULLET_COUNT0:i=25
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t="75mm_jp_Smoke"
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT2:i=0
+      }
+
+      jp_navy_120mm_spg{
+        USEROPT_BULLETS0:t="120mm_jp_HE"
+        USEROPT_WEAPONS:t="jp_navy_120mm_spg_default"
+        USEROPT_BULLETS1:t="120mm_jp_SAP"
+        USEROPT_BULLETS2:t="120mm_jp_SAP"
+        USEROPT_BULLETS3:t="120mm_jp_SAP"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLET_COUNT1:i=10
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_type_3_ho_ni_III{
+        USEROPT_WEAPONS:t="jp_type_3_ho_ni_III_default"
+        USEROPT_BULLETS1:t="75mm_type94_HE"
+        USEROPT_BULLET_COUNT0:i=25
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      germ_pzkpfw_III_ausf_E{
+        USEROPT_BULLET_COUNT0:i=64
+      }
+
+      germ_pzkpfw_35t{
+        USEROPT_BULLET_COUNT0:i=32
+      }
+
+      cn_sdkfz_222_early{
+        USEROPT_WEAPONS:t="cn_sdkfz_222_early_default"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t="20mm_ger_kwk30_AP"
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT1:i=9
+      }
+
+      jp_type_4_chi_to{
+        USEROPT_BULLETS0:t="75mm_jp_type1_AP"
+        USEROPT_WEAPONS:t="jp_type_4_chi_to_default"
+        USEROPT_BULLETS1:t="75mm_type90_HE"
+        USEROPT_BULLETS2:t="75mm_type4_APHE"
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT2:i=55
+      }
+
+      jp_type_98_ta_se{
+        USEROPT_WEAPONS:t="jp_type_98_ta_se_default"
+        USEROPT_BULLET_COUNT0:i=20
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_halftrack_m16{
+        USEROPT_WEAPONS:t="us_halftrack_m16_default"
+        USEROPT_BULLETS0:t="12mm_usa_M2HB_common"
+        USEROPT_BULLETS1:t="12mm_usa_M2HB_API"
+        USEROPT_BULLETS2:t="12mm_usa_M2HB_AP"
+        USEROPT_BULLETS3:t="12mm_usa_M2HB_APIT"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT1:i=24
+        USEROPT_BULLET_COUNT2:i=0
+        USEROPT_BULLET_COUNT3:i=0
+      }
+
+      jp_m24_chaffee{
+        USEROPT_WEAPONS:t="us_m24_chaffee_default"
+        USEROPT_BULLETS1:t="75mm_usa_HE"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t="75mm_usa_APCBC"
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT2:i=25
+      }
+
+      jp_type_5_na_to{
+        USEROPT_WEAPONS:t="jp_type_5_na_to_default"
+        USEROPT_BULLETS1:t="75mm_type90_HE"
+        USEROPT_BULLET_COUNT0:i=35
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t="75mm_type4_APCR"
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT2:i=0
+      }
+
+      jp_type_95_so_ki{
+        USEROPT_WEAPONS:t="jp_type_95_so_ki_default"
+        USEROPT_BULLET_COUNT0:i=26
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      il_tcm_20{
+        USEROPT_WEAPONS:t="il_tcm_20_default"
+        USEROPT_BULLET_COUNT0:i=12
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      il_magach_3{
+        USEROPT_WEAPONS:t="us_magach_3_default"
+        USEROPT_BULLETS1:t="105mm_usa_HESH"
+        USEROPT_BULLETS2:t="105mm_usa_HEAT_FS"
+        USEROPT_BULLETS3:t="105mm_us_M416_Smoke"
+        USEROPT_BULLET_COUNT0:i=14
+        USEROPT_BULLET_COUNT1:i=14
+        USEROPT_BULLET_COUNT2:i=14
+        USEROPT_BULLET_COUNT3:i=15
+      }
+
+      jp_type_16_mod{
+        USEROPT_WEAPONS:t="jp_type_16_default"
+        USEROPT_BULLETS1:t="105mm_NATO_HESH"
+        USEROPT_BULLETS2:t="105mm_NATO_APDS_FS"
+        USEROPT_BULLETS3:t="105mm_us_M416_Smoke"
+        USEROPT_BULLET_COUNT0:i=10
+        USEROPT_BULLET_COUNT1:i=10
+        USEROPT_BULLET_COUNT2:i=10
+        USEROPT_BULLET_COUNT3:i=10
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_t_80uk{
+        USEROPT_WEAPONS:t="ussr_t_80uk_default"
+        USEROPT_BULLETS1:t="125mm_ussr_HE_VT"
+        USEROPT_BULLET_COUNT0:i=15
+        USEROPT_BULLET_COUNT1:i=15
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_bmp_2m{
+        USEROPT_WEAPONS:t="ussr_bmp_2m_default"
+        USEROPT_BULLETS2:t="152mm_9M133_ATGM"
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS1:t="30mm_2a42_HE"
+        USEROPT_BULLET_COUNT0:i=1
+        USEROPT_BULLET_COUNT1:i=1
+        USEROPT_BULLET_COUNT2:i=2
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      us_ccvl{
+        USEROPT_WEAPONS:t="us_ccvl_default"
+        USEROPT_BULLET_COUNT0:i=43
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ah_64a_greece_usa{
+        USEROPT_WEAPONS:t="ah_64a_greece_usa_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      mig_23ml{
+        USEROPT_WEAPONS:t="mig_23ml_rocket_ub32"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+      }
+
+      f-4s{
+        USEROPT_WEAPONS:t="f_4s_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      cn_ztz_96a_prot{
+        USEROPT_WEAPONS:t="cn_ztz_96a_prot_default"
+        USEROPT_BULLETS1:t="125mm_china_HE"
+        USEROPT_BULLETS2:t="125mm_china_APDS_FS"
+        USEROPT_BULLET_COUNT0:i=13
+        USEROPT_BULLET_COUNT1:i=13
+        USEROPT_BULLET_COUNT2:i=14
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      f-4ej_adtw{
+        USEROPT_WEAPONS:t="f_4ej_bomb_mk82"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t="JM61A1_armor_targets"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      t2_early{
+        USEROPT_WEAPONS:t="t2_early_2xAero7"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      j_7d{
+        USEROPT_WEAPONS:t="j_7d_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      kfir_canard{
+        USEROPT_WEAPONS:t="kfir_canard_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      mig-21_bis_lazur{
+        USEROPT_WEAPONS:t="mig_21_smt_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_pzkpfw_VI_ausf_e_tiger{
+        USEROPT_WEAPONS:t="jp_pzkpfw_VI_ausf_e_tiger_default"
+        USEROPT_BULLETS1:t="88mm_ger_kwk36_Pzgr_APCBC"
+        USEROPT_BULLETS2:t="88mm_ger_kwk36_HEAT"
+        USEROPT_BULLETS3:t="88mm_ger_kwk36_default_HE"
+        USEROPT_BULLET_COUNT0:i=23
+        USEROPT_BULLET_COUNT1:i=23
+        USEROPT_BULLET_COUNT2:i=23
+        USEROPT_BULLET_COUNT3:i=23
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      cn_type_64{
+        USEROPT_WEAPONS:t="cn_type_64_default"
+        USEROPT_BULLETS1:t="76mm_usa_M42A1_HE"
+        USEROPT_BULLETS2:t="76mm_usa_APCBC"
+        USEROPT_BULLETS3:t="76mm_usa_M93_APCR"
+        USEROPT_BULLET_COUNT0:i=6
+        USEROPT_BULLET_COUNT1:i=6
+        USEROPT_BULLET_COUNT2:i=6
+        USEROPT_BULLET_COUNT3:i=7
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_type_62{
+        USEROPT_WEAPONS:t="ussr_type_62_default"
+        USEROPT_BULLETS1:t="85mm_ussr_HE"
+        USEROPT_BULLET_COUNT0:i=23
+        USEROPT_BULLET_COUNT1:i=24
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      su-7bmk{
+        USEROPT_WEAPONS:t="su_7bmk_6x_ub16"
+        USEROPT_BULLETS0:t="NR_30_armor_targets"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      us_elco_80ft_pt_boat_mod01{
+        USEROPT_WEAPONS:t="us_elco_80ft_pt_boat_mod01_default"
+        USEROPT_AI_GUNNERS_TARGET:i=1
+      }
+
+      ki-45_tei{
+        USEROPT_WEAPONS:t="ki-45_tei_default"
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      cn_su_76m_1943{
+        USEROPT_WEAPONS:t="ussr_su_76m_1943_default"
+        USEROPT_BULLETS1:t="76mm_ussr_HE"
+        USEROPT_BULLETS2:t="76mm_ussr_Shrapnel"
+        USEROPT_BULLET_COUNT0:i=30
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=0
+        USEROPT_BULLETS3:t="76mm_AP_1942"
+        USEROPT_BULLET_COUNT3:i=0
+      }
+
+      it_fiat_6614_106sr{
+        USEROPT_BULLETS0:t="106mm_M344A1_HEAT"
+      }
+
+      f1m2{
+        USEROPT_WEAPONS:t="f1m2_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ki_21_1ko{
+        USEROPT_WEAPONS:t="ki_21_1ko_type94mod10"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t="303_turret_api"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      j2m5_30mm{
+        USEROPT_WEAPONS:t="j2m3_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      b-17e_japan{
+        USEROPT_WEAPONS:t="b-17e_japan_16x500lbs"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      a7m1{
+        USEROPT_WEAPONS:t="a7m_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      b5n2{
+        USEROPT_WEAPONS:t="b5n2_type97mod6_bombs"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      germ_leopard_2pl{
+        USEROPT_WEAPONS:t="germ_leopard_2pl_default"
+        USEROPT_BULLET_COUNT0:i=42
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t="NATO_APDS_FS"
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT1:i=0
+      }
+
+      bf-109f-4_hungary{
+        USEROPT_WEAPONS:t="Bf-109F-4_default"
+      }
+
+      jp_type_5_ho_ri_prototype{
+        USEROPT_WEAPONS:t="jp_type_5_ho_ri_prototype_default"
+        USEROPT_BULLETS1:t="105mm_japan_HE"
+        USEROPT_BULLET_COUNT0:i=25
+        USEROPT_BULLET_COUNT1:i=26
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_type_4_chi_to_late{
+        USEROPT_WEAPONS:t="jp_type_4_chi_to_late_default"
+        USEROPT_BULLETS0:t="75mm_jp_type1_AP"
+        USEROPT_BULLETS1:t="75mm_type90_HE"
+        USEROPT_BULLETS2:t="75mm_type90_HE"
+        USEROPT_BULLETS3:t="75mm_type90_HE"
+        USEROPT_BULLET_COUNT0:i=35
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      jp_m4a3e8_76w_sherman{
+        USEROPT_WEAPONS:t="jp_m4a3e8_76w_sherman_default"
+        USEROPT_BULLETS1:t="76mm_usa_M42A1_HE"
+        USEROPT_BULLET_COUNT0:i=35
+        USEROPT_BULLET_COUNT1:i=36
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      d3a1{
+        USEROPT_WEAPONS:t="d3a1_mod25mark2"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t="7_7mm_universal"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      h6k4{
+        USEROPT_WEAPONS:t="h6k4_12xtype97mod6"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ki_43_1{
+        USEROPT_WEAPONS:t="ki_43_1_default"
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t="breda12_7_universal"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      b6n1{
+        USEROPT_WEAPONS:t="b6n1_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t="7_7mm_universal"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      g4m1{
+        USEROPT_WEAPONS:t="g4m1_type97mod6"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      xp-55{
+        USEROPT_WEAPONS:t="xp-55_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      p-26a_33{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      jp_type_t1_1941{
+        USEROPT_WEAPONS:t="torpedoes"
+      }
+
+      d4y1{
+        USEROPT_WEAPONS:t="d4y_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      h8k2{
+        USEROPT_WEAPONS:t="h8k2_2xtype91mod2_torpedo"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+      }
+
+      cn_type_97_chi_ha{
+        USEROPT_WEAPONS:t="jp_type_97_chi_ha_default"
+        USEROPT_BULLETS0:t="57mm_type_90_AP"
+        USEROPT_BULLETS1:t="57mm_Type3_HEAT"
+        USEROPT_BULLETS2:t="57mm_Type3_HEAT"
+        USEROPT_BULLETS3:t="57mm_Type3_HEAT"
+        USEROPT_BULLET_COUNT0:i=60
+        USEROPT_BULLET_COUNT1:i=60
+      }
+
+      cn_gmc_cckw_353_m45_quad{
+        USEROPT_WEAPONS:t="cn_gmc_cckw_353_m45_quad_default"
+        USEROPT_BULLETS0:t="12mm_usa_M2HB_common"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLET_COUNT0:i=16
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      p-26a_34_m2{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_WEAPONS:t="P-26A_1934_2x100lbs"
+      }
+
+      mig_3_series_1_15{
+        USEROPT_WEAPONS:t="mig_3_series_1_15_default"
+      }
+
+      a6m2_n_zero{
+        USEROPT_WEAPONS:t="a6m2n_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ki_44_1{
+        USEROPT_WEAPONS:t="ki_43_2_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      f-104s_cb{
+        USEROPT_WEAPONS:t="f-104s_cb_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      j1n1_mod11_early{
+        USEROPT_WEAPONS:t="j1n1_2x60kg_bombs"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ki-45_otsu{
+        USEROPT_WEAPONS:t="ki-45_otsu_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      d4y2{
+        USEROPT_WEAPONS:t="d4y_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      bf2c_1{
+        USEROPT_WEAPONS:t="bf2c_1_default"
+      }
+
+      fr_destroyer_bourrasque_class_bourrasque{
+        USEROPT_WEAPONS:t="fr_destroyer_bourrasque_class_bourrasque_torpedoes"
+      }
+
+      jp_destroyer_momi{
+        USEROPT_WEAPONS:t="torpedoes"
+      }
+
+      ussr_zis_30{
+        USEROPT_WEAPONS:t="ussr_zis_30_default"
+        USEROPT_BULLETS1:t="57mm_ussr_HE"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t="57mm_ussr_AP"
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT2:i=20
+      }
+
+      ussr_object_292{
+        USEROPT_WEAPONS:t="object_292_default"
+        USEROPT_BULLETS1:t="152mm_ussr_HE"
+        USEROPT_BULLET_COUNT0:i=30
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_t_72m2_moderna{
+        USEROPT_WEAPONS:t="ussr_t_72m2_moderna_default"
+        USEROPT_BULLETS1:t="125mm_ussr_HE"
+        USEROPT_BULLET_COUNT0:i=22
+        USEROPT_BULLET_COUNT1:i=22
+      }
+
+      ussr_t_28E{
+        USEROPT_WEAPONS:t="ussr_t_28e_default"
+        USEROPT_BULLETS1:t="76mm_ussr_HE"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS2:t="76mm_AP_1941"
+        USEROPT_BULLET_COUNT2:i=35
+      }
+
+      ussr_kv_1_L_11{
+        USEROPT_WEAPONS:t="ussr_kv_1_L_11_default"
+        USEROPT_BULLETS1:t="76mm_ussr_HE"
+        USEROPT_BULLETS2:t="76mm_ussr_Shrapnel"
+        USEROPT_BULLET_COUNT0:i=50
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS3:t="76mm_AP_1942"
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT3:i=0
+      }
+
+      mi_4av{
+        USEROPT_WEAPONS:t="mi_4av_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+      }
+
+      ussr_su_122{
+        USEROPT_WEAPONS:t="ussr_su_122_1943_default"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t="122mm_ussr_HEAT"
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT1:i=20
+      }
+
+      ussr_t_34_1941_l_11{
+        USEROPT_WEAPONS:t="ussr_t_34_1941_l_11_default"
+        USEROPT_BULLETS1:t="76mm_ussr_HE"
+        USEROPT_BULLETS2:t="76mm_ussr_Shrapnel"
+        USEROPT_BULLET_COUNT0:i=40
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS3:t="76mm_AP_1942"
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT3:i=0
+      }
+
+      ussr_gaz_mm_72k{
+        USEROPT_WEAPONS:t="ussr_gaz_mm_72k_default"
+        USEROPT_BULLET_COUNT0:i=57
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      germ_vt_1_2{
+        USEROPT_WEAPONS:t="germ_vt_1_2_default"
+        USEROPT_BULLETS0:t="120mm_NATO_HEAT_FS"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLET_COUNT0:i=36
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_t_34_57_1943{
+        USEROPT_WEAPONS:t="ussr_t_34_57_1943_default"
+        USEROPT_BULLETS1:t="57mm_ussr_AP"
+        USEROPT_BULLETS2:t="57mm_ussr_HE"
+        USEROPT_BULLETS3:t="57mm_ussr_APCR"
+        USEROPT_BULLET_COUNT0:i=25
+        USEROPT_BULLET_COUNT1:i=25
+        USEROPT_BULLET_COUNT2:i=25
+        USEROPT_BULLET_COUNT3:i=25
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ka_50{
+        USEROPT_WEAPONS:t="ka_50_rocket_c_8_ko"
+        USEROPT_BULLETS2:t="maw_countermeasures_launcher_flare_only"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      f4d_1{
+        USEROPT_WEAPONS:t="f4d-1_aim_9b_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      f_20a{
+        USEROPT_WEAPONS:t="f_20a_bomb_blu_1"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      mig_3_series_1_15_bk_pod{
+        USEROPT_WEAPONS:t="mig_3_series_1_15_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      db_3b{
+        USEROPT_WEAPONS:t="db_3b_default"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT0:i=3000
+      }
+
+      ussr_zsu_29k{
+        USEROPT_WEAPONS:t="ussr_zsu_29k_default"
+        USEROPT_BULLETS0:t="76mm_ussr_3K_APHE"
+        USEROPT_BULLETS1:t="76mm_ussr_3K_HE"
+        USEROPT_BULLETS2:t="76mm_ussr_3K_HE"
+        USEROPT_BULLETS3:t="76mm_ussr_3K_HE"
+        USEROPT_BULLET_COUNT0:i=20
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_bm_8_24{
+        USEROPT_WEAPONS:t="ussr_bm_8_24_default"
+        USEROPT_BULLETS0:t="82mm_ussr_m8_HE"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLET_COUNT0:i=1
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_su_100Y{
+        USEROPT_WEAPONS:t="ussr_su_100Y_default"
+        USEROPT_BULLETS1:t="130mm_ussr_HE"
+        USEROPT_BULLET_COUNT0:i=30
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      cn_qn506{
+        USEROPT_WEAPONS:t="cn_qn506_default"
+        USEROPT_BULLETS0:t="70mm_QN201_ATGM"
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS3:t="30mm_2a42_HE"
+        USEROPT_BULLET_COUNT0:i=1
+        USEROPT_BULLET_COUNT2:i=1
+        USEROPT_BULLET_COUNT3:i=1
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_t_34_1942{
+        USEROPT_WEAPONS:t="ussr_t_34_1942_default"
+        USEROPT_BULLETS1:t="76mm_ussr_HE"
+        USEROPT_BULLETS2:t="76mm_ussr_Shrapnel"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS3:t="76mm_AP_1941"
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+        USEROPT_BULLET_COUNT3:i=40
+      }
+
+      ussr_asu_57{
+        USEROPT_WEAPONS:t="ussr_asu_57_default"
+        USEROPT_BULLETS1:t="57mm_ussr_HE"
+        USEROPT_BULLET_COUNT0:i=15
+        USEROPT_BULLET_COUNT1:i=15
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_kv_1s{
+        USEROPT_WEAPONS:t="ussr_kv_1s_default"
+        USEROPT_BULLETS1:t="76mm_ussr_HE"
+        USEROPT_BULLETS2:t="76mm_ussr_Shrapnel"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLET_COUNT2:i=0
+        USEROPT_BULLETS3:t="76mm_AP_1941"
+        USEROPT_BULLET_COUNT3:i=45
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_su_152{
+        USEROPT_WEAPONS:t="ussr_su_152_default"
+        USEROPT_BULLETS1:t="152mm_ussr_HE"
+        USEROPT_BULLET_COUNT0:i=20
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_su_57b{
+        USEROPT_WEAPONS:t="ussr_su_57b_default"
+        USEROPT_BULLETS1:t="57mm_ussr_HE"
+        USEROPT_BULLET_COUNT0:i=36
+        USEROPT_BULLET_COUNT1:i=36
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      ussr_t_34_1941_57{
+        USEROPT_WEAPONS:t="ussr_t_34_1941_57_default"
+        USEROPT_BULLETS1:t="57mm_ussr_HE"
+        USEROPT_BULLET_COUNT0:i=0
+        USEROPT_BULLET_COUNT1:i=0
+        USEROPT_BULLETS2:t="57mm_ussr_AP"
+        USEROPT_BULLET_COUNT2:i=32
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+      }
+
+      us_lvt_a_1{
+        USEROPT_BULLET_COUNT0:i=50
+      }
+
+      us_m2a4{
+        USEROPT_BULLET_COUNT0:i=50
+      }
+
+      il_m_51{
+        USEROPT_WEAPONS:t="il_m_51_w_default"
+        USEROPT_BULLETS0:t="105mm_fr_CN105_HEAT"
+        USEROPT_BULLETS1:t="105mm_fr_CN105_HE"
+        USEROPT_BULLETS2:t="105mm_fr_CN105_HE"
+        USEROPT_BULLETS3:t="105mm_fr_CN105_HE"
+        USEROPT_BULLET_COUNT0:i=28
+        USEROPT_BULLET_COUNT1:i=28
+      }
+
+      fr_vtb8{
+        USEROPT_WEAPONS:t="torpedoes"
+      }
+    }
+
+    userSkins{
+      jp_type_2_ka_mi:t=""
+      ki_32:t=""
+      f-86f-40_japan_blue_impulse:t=""
+      jp_type_75_mlrs:t=""
+      jp_type_98_ke_ni:t=""
+      jp_type_4_ho_ro:t=""
+      jp_hiro_sha:t=""
+      jp_type_97_chi_ha:t=""
+      i-15_1935_moscow:t=""
+      i-16_type5:t=""
+      yak_2_kabb:t=""
+      ussr_su_5_1:t=""
+      ussr_su_76m_1943:t=""
+      ussr_t_60_1941:t=""
+      ussr_bt_7_1937:t=""
+      ussr_gaz_4m:t=""
+      ussr_t_50:t=""
+      ussr_t_70_1942:t=""
+      ussr_t_80:t=""
+      jp_type_94:t=""
+      jp_type_97_kai:t=""
+      jp_type_3_ho_ni_I:t=""
+      jp_type_1_chi_he:t=""
+      jp_type_3_chi_nu:t=""
+      jp_type_3_ho_ni_III:t=""
+      jp_navy_120mm_spg:t=""
+      jp_type_89b_i_go_otsu:t=""
+      cn_sdkfz_222_early:t=""
+      jp_type_2_ho_i:t=""
+      jp_type_98_ta_se:t=""
+      jp_halftrack_m16:t=""
+      jp_m24_chaffee:t=""
+      jp_type_5_na_to:t=""
+      jp_type_4_chi_to:t=""
+      jp_type_95_so_ki:t=""
+      il_tcm_20:t=""
+      il_magach_3:t=""
+      jp_type_16_mod:t=""
+      ussr_t_80uk:t=""
+      ussr_bmp_2m:t=""
+      us_ccvl:t=""
+      ah_64a_greece_usa:t=""
+      mig_23ml:t=""
+      f-4s:t=""
+      cn_ztz_96a_prot:t=""
+      f-4ej_adtw:t=""
+      t2_early:t=""
+      j_7d:t=""
+      kfir_canard:t=""
+      mig-21_bis_lazur:t=""
+      jp_pzkpfw_VI_ausf_e_tiger:t=""
+      cn_type_64:t=""
+      ussr_type_62:t=""
+      su-7bmk:t=""
+      a5m4_hagiri:t=""
+      ki-27_otsu:t=""
+      ki_10_2:t=""
+      ki-45_tei:t=""
+      f1m2:t=""
+      ki_21_1ko:t=""
+      j2m5_30mm:t=""
+      b-17e_japan:t=""
+      a7m1:t=""
+      b5n2:t=""
+      germ_leopard_2pl:t=""
+      jp_type_5_ho_ri_prototype:t=""
+      jp_type_4_chi_to_late:t=""
+      jp_m4a3e8_76w_sherman:t=""
+      d3a1:t=""
+      h6k4:t=""
+      b6n1:t=""
+      g4m1:t=""
+      ki_43_1:t=""
+      xp-55:t=""
+      d4y1:t=""
+      h8k2:t=""
+      cn_gmc_cckw_353_m45_quad:t=""
+      a6m2_n_zero:t=""
+      ki_44_1:t=""
+      f-104s_cb:t=""
+      j1n1_mod11_early:t=""
+      ki-45_otsu:t=""
+      d4y2:t=""
+      ussr_zis_30:t=""
+      ussr_bt_5:t=""
+      ussr_object_292:t=""
+      ussr_t_72m2_moderna:t=""
+      ussr_bt_7_m:t=""
+      ussr_kv_1_L_11:t=""
+      mi_4av:t=""
+      ussr_su_122:t=""
+      ussr_t_34_1941_l_11:t=""
+      ussr_gaz_mm_72k:t=""
+      germ_vt_1_2:t=""
+      ussr_t_34_57_1943:t=""
+      ka_50:t=""
+      f4d_1:t=""
+      f_20a:t=""
+      mig_3_series_1_15_bk_pod:t=""
+      db_3b:t=""
+      ussr_zsu_29k:t=""
+      ussr_bm_8_24:t=""
+      ussr_su_100Y:t=""
+      cn_qn506:t=""
+      ussr_t_34_1942:t=""
+      ussr_asu_57:t=""
+      bb-1:t=""
+      ussr_su_152:t=""
+      ussr_su_57b:t=""
+      il_m_51:t=""
+      ussr_kv_1s:t=""
+      ussr_t_34_1941_57:t=""
+    }
+
+    tankAltCrosshair{
+      a_10a_late:t="test_crosshair"
+      jp_type_75_mlrs:t="jp_type_75_mlrs"
+      uh_1b:t="test_crosshair"
+      ah_1s_early:t="test_crosshair"
+      mi_24a:t="test_crosshair"
+      a_109_eoa2:t="test_crosshair"
+      f_16aj:t="test_crosshair"
+      ussr_bm_8_24:t="ussr_bm_8_24"
+      uh_1c:t="test_crosshair"
+      scout_ah_mk1:t="test_crosshair"
+      uh_1d:t="test_crosshair"
+      sw_landsverk_ush_405:t="sw_landsverk_ush_405"
+      mi_4av:t="test_crosshair"
+      sa_316b:t="test_crosshair"
+      hkp2:t="test_crosshair"
+      wasp_has_mk1:t="test_crosshair"
+      ah_64a_greece_usa:t="test_crosshair"
+      a_6e_tram:t="test_crosshair"
+      ussr_bm_13n:t="ussr_bm_13n"
+      us_m4_sherman_calliope:t="us_m4_sherman_calliope"
+      ussr_bm_31_12:t="ussr_bm_31_12"
+      f_15a:t="test_crosshair"
+      ka_50:t="test_crosshair"
+      f_20a:t="test_crosshair"
+      germ_panzerwerfer_42:t="germ_panzerwerfer_42"
+      ussr_rbt_5:t="ussr_rbt_5"
+    }
+
+    forbid_visual_tags{}
+    hitIndicator{
+      radius:i=100
+      scale:i=100
+      alpha:i=100
+      timeout:i=2
+    }
+
+    lwsIndicator{
+      radius:i=100
+      scale:i=100
+      alpha:i=100
+      timeout:i=2
+    }
+
+    lwsIndicatorHelicopter{
+      radius:i=100
+      scale:i=100
+      alpha:i=100
+      timeout:i=2
+    }
+
+    sensorViewFilters{
+      f0:b=yes
+      f1:b=yes
+      f2:b=yes
+      f3:b=yes
+      f4:b=yes
+      f5:b=yes
+      f6:b=yes
+      f7:b=yes
+      f8:b=yes
+      f9:b=yes
+      f10:b=yes
+      f11:b=yes
+      f12:b=yes
+      f13:b=yes
+      f14:b=yes
+      f15:b=yes
+      f16:b=yes
+      f17:b=yes
+      f18:b=yes
+      f19:b=yes
+      f20:b=yes
+      f21:b=yes
+      f22:b=yes
+      f23:b=yes
+    }
+  }
+
+  selectedAir{
+    current_model:t="db_3b"
+    japan:t="jp_halftrack_m16"
+    britain:t="fury_mk1"
+    ussr:t="db_3b"
+    israel:t="il_magach_2"
+    usa:t="us_lvt_a_1"
+    china:t="cn_type_97_chi_ha"
+    italy:t="it_ab_41"
+    france:t="d_371"
+    germany:t="germ_pzkpfw_III_ausf_E"
+    sweden:t="sw_strv_m31"
+  }
+
+  customDifficultyBlk{
+    setDifficulty:i=3
+    baseDifficulty:i=1
+    baseDifficultyPreset:i=3
+    engineControl:i=1
+    realGunnery:i=1
+    realDamageModels:b=yes
+    stallsAndSpins:b=yes
+    redOuts:b=yes
+    mortalPilots:b=yes
+    manualTrimming:b=no
+    torqueAndGyro:b=no
+    flutter:b=yes
+    limitedBombsMissiles:b=yes
+    sensor:i=1
+    seeker:i=1
+    radarAssist:b=yes
+    radar:i=0
+    rwr:i=1
+    noArcadeBoost:i=1
+    limitViews:i=0
+    hudAimPrediction:b=no
+    hudMarkers:i=2
+    hudMarkerArrows:b=yes
+    hudAircraftMarkersMaxDist:i=3
+    hudIndicators:b=yes
+    hudShowTankDistance:b=no
+    hudTankRangefinder:i=1
+    hudMapAircraftMarkers:i=2
+    hudMapGroundMarkers:i=2
+    hudMarkersBlink:b=yes
+    hudShowAttentionMarkForAircraft:b=no
+    hudRadar:b=yes
+    hudDamageModel:i=1
+    hudDamageIndicator:b=yes
+    hudLargeAwardMessages:b=yes
+    hudWarnings:b=yes
+    noRespawns:b=no
+    respDifficulty:i=1
+    aircraftHelpers:b=no
+    collectiveDetection:b=yes
+    distDetection:i=1
+    allowControlHelpers:i=0
+    forceInstructor:b=no
+    playerTurretDeviation:i=1
+    hudOutline:b=no
+    ctaCaptureMul:i=1
+    damageModel:i=1
+    hudSpawnShotMarkers:b=no
+    hudShowEnemyDamageLog:b=yes
+    bombAssaultFuseTimeOverride:b=no
+    noviceDM:b=no
+    crewHealingOnlyOnCaptureZone:b=yes
+    showBombSight:b=no
+    showRadarGunSight:b=no
+    visibleNotTraceableIndicators:b=yes
+    checkTreesForIndicators:b=no
+    drawShipBulletFallIndicator:b=no
+    showShipBulletTimer:b=yes
+    ignoreReplenishment:b=no
+    aircraftFriendlyFireForBanOnly:b=no
+    enableLeaveKills:b=yes
+    airToAirMissileDetection:b=no
+    rocketSpotting:b=yes
+    nightVisionInTPS:b=yes
+    hudDetectAlly:b=no
+    keepDeadTankOnMap:b=yes
+    keepDeadShipOnMap:b=yes
+    hudSendSquare:b=yes
+    shipSupportPlanes:b=no
+    lightDM:b=no
+    checkActivityByPlayerDamage:b=no
+    shipGunsRearm:b=no
+    opticalAgmArcadeControl:b=no
+  }
+}

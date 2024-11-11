@@ -1,0 +1,11 @@
+[error]	2024-07-29 17:13:29.747344[Thread 0x000070d3f4ae4b80]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2024-07-29 17:13:30.280200[Thread 0x000070d3f4ae4b80]:17:13:30: Warning: Error running JavaScript: Unsupported result type
+[warning]	2024-07-29 17:13:30.284101[Thread 0x000070d3f4ae4b80]:17:13:30: Warning: Error running JavaScript: Unsupported result type
+[warning]	2024-07-29 17:13:30.303905[Thread 0x000070d3f4ae4b80]:17:13:30: Warning: Error running JavaScript: Unsupported result type
+[warning]	2024-07-29 17:13:30.320908[Thread 0x000070d3f4ae4b80]:17:13:30: Warning: Error running JavaScript: Unsupported result type
+[error]	2024-07-29 17:13:31.850464[Thread 0x000070d3f4ae4b80]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2024-07-29 17:13:31.890312[Thread 0x000070d3f4ae4b80]:get_version, get_version not supported,return 00.00.00.00!
+[error]	2024-07-29 17:13:32.469270[Thread 0x000070d3f4ae4b80]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2024-07-29 17:14:40.809002[Thread 0x000070d3f4ae4b80]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-07-29 17:14:41.316428[Thread 0x000070d3f4ae4b80]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-07-29 17:14:47.214080[Thread 0x000070d3f4ae4b80]:calc_exclude_triangles:Unable to create exclude triangles

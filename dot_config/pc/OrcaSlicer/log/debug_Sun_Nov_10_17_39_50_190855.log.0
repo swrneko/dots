@@ -1,0 +1,17 @@
+[error]	2024-11-10 17:39:51.816080[Thread 0x00007626438cfcc0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2024-11-10 17:39:52.487634[Thread 0x00007626438cfcc0]:17:39:52: Warning: Error running JavaScript: Unsupported result type
+[warning]	2024-11-10 17:39:52.491559[Thread 0x00007626438cfcc0]:17:39:52: Warning: Error running JavaScript: Unsupported result type
+[warning]	2024-11-10 17:39:52.492401[Thread 0x00007626438cfcc0]:17:39:52: Warning: Error running JavaScript: Unsupported result type
+[warning]	2024-11-10 17:39:52.493398[Thread 0x00007626438cfcc0]:17:39:52: Warning: Error running JavaScript: Unsupported result type
+[error]	2024-11-10 17:39:54.392798[Thread 0x00007626438cfcc0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2024-11-10 17:39:54.463042[Thread 0x00007626438cfcc0]:get_version, get_version not supported,return 00.00.00.00!
+[error]	2024-11-10 17:46:16.414627[Thread 0x00007626438cfcc0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-11-10 17:48:21.191098[Thread 0x00007626438cfcc0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-11-10 17:48:40.555506[Thread 0x00007626438cfcc0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-11-10 17:55:01.804778[Thread 0x00007626438cfcc0]:Unable to open the file/home/swrneko/Downloads/fox.stl
+[error]	2024-11-10 17:57:38.847867[Thread 0x00007626438cfcc0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-11-10 18:03:02.737112[Thread 0x00007626438cfcc0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-11-10 18:04:20.251406[Thread 0x00007626438cfcc0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-11-10 18:04:30.368583[Thread 0x00007626438cfcc0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-11-10 18:07:06.790259[Thread 0x00007626438cfcc0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2024-11-10 18:12:35.064659[Thread 0x00007626438cfcc0]:calc_exclude_triangles:Unable to create exclude triangles
