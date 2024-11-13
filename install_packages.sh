@@ -5,6 +5,8 @@ want_config=n
 want_backup=y
 want_pc=1
 
+cd dots
+
 read "Do you want install PC version(1) or Laptop version(2) default=1" want_pc
 
 read "Would you like to make backup of .conkfig files? (Y/n): " want_backup
@@ -20,7 +22,7 @@ read -p "Do you want to install packages? (y/N): " want_install
 
 if [ "$want_install" = "y" ] || [ "$want_install" = "Y" ];
 then
-  sudo pacman -Syu --needed alacritty neovim git zsh ly waybar wofi wmctrl xdg-desktop-portal-hyprland imv xdotool fcitx5 fcitx5-im ranger nwg-look qt5ct playerctl feh evince freecad brightnessctl bluez bluez-utils blueberry pavucontrol steam libreoffice telegram-desktop firefox neofetch ttf-0xproto-nerd adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts noto-fonts-cjk ttf-hanazono ttf-sazanami breeze oxygen kvantum adapta-gtk-theme arc-gtk-theme breeze-gtk gnome-themes-extra materia-gtk-theme dotnet-sdk wl-clipboard lutris htop gst-libav phonon-qt5-gstreamer gst-plugins-good qt5-quickcontrols qt5-graphicaleffects qt5-multimedia slurp grim imv vlc audacity pipewire pipewire-pulse android-tools ibus-anthy ibus
+  sudo pacman -Syu --needed alacritty neovim git zsh ly waybar wofi wmctrl xdg-desktop-portal-hyprland imv xdotool fcitx5 fcitx5-im ranger nwg-look qt5ct playerctl feh evince freecad brightnessctl bluez bluez-utils blueberry pavucontrol steam libreoffice telegram-desktop firefox neofetch ttf-0xproto-nerd adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts noto-fonts-cjk ttf-hanazono ttf-sazanami breeze oxygen kvantum adapta-gtk-theme arc-gtk-theme breeze-gtk gnome-themes-extra materia-gtk-theme dotnet-sdk wl-clipboard lutris htop gst-libav phonon-qt5-gstreamer gst-plugins-good qt5-quickcontrols qt5-graphicaleffects qt5-multimedia slurp grim imv vlc audacity pipewire pipewire-pulse android-tools ibus-anthy ibus tela-circle-icon-theme-all nemo
 
 else
   echo
@@ -30,6 +32,14 @@ fi
 read -p "Do you want to change configuration on you'r machine to configuration from this script? (y/N): " want_config
 if [ "$want_config" = "y" ] || [ "$want_config" = "Y" ];
 then
+  # GTK theme installation
+  cd dots && cp -r custom_themes/* ~/.themes/ 
+#  git config --global core.compression 0
+#  git clone --depth 1 https://github.com/vinceliuice/Orchis-theme.git && cd Orchis-theme
+#  git fetch --unshallow
+#  git pull --all
+#  ./install.sh -t purple -c dark -i arch --tweaks black submenu
+
   cd ~/ && git clone https://aur.archlinux.org/pakku.git && cd ~/pakku/ && makepkg -si
   cd ~/dots && cp -r dot_config/* ~/.config && cp .Xauthority .Xresources .xinitrc ~/
   sudo cp some_another_files/pakku.conf /etc 

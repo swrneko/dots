@@ -51,7 +51,8 @@ window {
 
 #entry:selected {
   background-color: rgba(55, 59, 65, 0);
-  border-radius: 5px;
+  border-radius: 10px;
   border: 2px solid;
-  border-color: #5f34e0;
+  border-color: #BA68C8;
+  /* border-color: #5f34e0; */
 }
