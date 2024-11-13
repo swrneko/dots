@@ -3,6 +3,9 @@
 want_install=n
 want_config=n
 want_backup=y
+want_pc=1
+
+read "Do you want install PC version(1) or Laptop version(2) default=1" want_pc
 
 read "Would you like to make backup of .conkfig files? (Y/n): " want_backup
 if [ "$want_backup" = "y" ] || [ "$want_backup" = "Y" ];
