@@ -5,7 +5,7 @@
      normal = { family = '0xProto Nerd Font Mono', style = 'Regular' }
 
 [window]
-     opacity = 0.85
+     opacity = 0.75
      dynamic_padding = false
      padding = {x = 10}
 

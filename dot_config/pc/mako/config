@@ -6,3 +6,4 @@ border-radius=8
 height=150
 width=300
 default-timeout=10000
+on-notify=exec mpg123 ~/.config/system_sounds/notification.mp3

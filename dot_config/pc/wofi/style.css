@@ -10,8 +10,8 @@ window {
 #input {
   margin: 4px;
   border: none;
-  /* color: #f8f8f2; */
-  color: #c39ee8;
+  /* color: #c39ee8;; */
+  color: none;
   background-color: rgba(28, 28, 46, 0.9);
 }
 
