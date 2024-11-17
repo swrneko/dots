@@ -2,8 +2,8 @@ window {
   font-family: '0xProto Nerd Font Mono';
   font-size: 11pt;
   margin: 4px;
-  border: 0px solid rgba(0, 0, 0, 0.9);
-  background-color: rgba(21, 23, 32, 0.9);
+  border: none;
+  background-color: rgba(21, 23, 32, 0.5);
   border-radius: 10px;
 }
 
@@ -12,7 +12,7 @@ window {
   border: none;
   /* color: #c39ee8;; */
   color: none;
-  background-color: rgba(28, 28, 46, 0.9);
+  background-color: rgba(28, 28, 46, 0.7);
 }
 
 #inner-box {
@@ -39,20 +39,23 @@ window {
   color: #c39ee8;
 }
 
+#text:selected {
+}
+
 #entry {
   /* border: 2px solid; */
-  border-color: rgba(55, 59, 65, 0);
 }
 
 #entry:focus {
-  /* border: 2px solid; */
-  border-color: rgba(55, 59, 65, 0);
+  border: 10px;
+  border-color: #000;
 }
 
 #entry:selected {
   background-color: rgba(55, 59, 65, 0);
-  border-radius: 10px;
-  border: 2px solid;
-  border-color: #BA68C8;
+  border-radius: 0px;
+  border-bottom: 2px solid;
+  border-color: #8b39ad;
+  outline-color: transparent;
   /* border-color: #5f34e0; */
 }

@@ -8,4 +8,6 @@ show_all=true
 print_command=true
 layer=overlay
 insensitive=true
+term=alacritty
+hide_scroll=true
 prompt=ここに書いてください...
