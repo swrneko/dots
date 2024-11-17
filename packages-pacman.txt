@@ -78,3 +78,4 @@ mako
 ghex 
 vulkan-radeon 
 lib32-vulkan-radeon
+network-manager-applet
