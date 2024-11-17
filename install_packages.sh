@@ -82,6 +82,7 @@ fi
 if [ "$want_config" = "y" ] || [ "$want_config" = "Y" ];
 then
   # GTK theme installation
+  mkdir ~/.themes 
   cd dots && cp -r custom_themes/* ~/.themes/ 
   cd ~/dots && cp -r dot_config/* ~/.config && cp .Xauthority .Xresources .xinitrc ~/
   sudo cp some_another_files/pakku.conf /etc 

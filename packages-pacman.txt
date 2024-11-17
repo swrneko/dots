@@ -79,3 +79,4 @@ ghex
 vulkan-radeon 
 lib32-vulkan-radeon
 network-manager-applet
+tela-circle-icon-theme-all
