@@ -82,6 +82,7 @@ fi
 if [ "$want_config" = "y" ] || [ "$want_config" = "Y" ];
 then
   # GTK theme installation
+  xdg-mime default nemo.desktop inode/directory
   mkdir ~/.themes 
   cd dots && cp -r custom_themes/* ~/.themes/ 
   cd ~/dots && cp -r dot_config/* ~/.config && cp .Xauthority .Xresources .xinitrc ~/
