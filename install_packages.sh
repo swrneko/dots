@@ -84,6 +84,9 @@ then
   # GTK theme installation
   xdg-mime default nemo.desktop inode/directory # setup default file manager
   sudo ln -s /usr/share/fontconfig/conf.avail/51-local.conf # make link for fontconfig
+  sudo cp some_another_files/local.conf /etc/fonts/
+  cd ~/dots
+  cd /etc/fonts/conf.d
   sudo ln -s /usr/share/fontconfig/conf.avail/50-user.conf # make link for fontconfig
   sudo cp ~/dots/some_another_files/pakku.conf /etc/fonts/ # copy font fallback alias for alacritty 
   mkdir ~/.themes 
