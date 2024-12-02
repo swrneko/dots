@@ -2,7 +2,6 @@ alacritty
 neovim
 git
 zsh 
-ly 
 waybar 
 wofi 
 wmctrl 
@@ -80,3 +79,7 @@ vulkan-radeon
 lib32-vulkan-radeon
 network-manager-applet
 tela-circle-icon-theme-all
+sddm
+qt5-graphicaleffects 
+qt5-svg 
+qt5-quickcontrols2

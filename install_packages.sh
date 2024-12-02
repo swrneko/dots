@@ -82,6 +82,7 @@ fi
 if [ "$want_config" = "y" ] || [ "$want_config" = "Y" ];
 then
   # GTK theme installation
+  cd ~/dots/sddm && sudo cp -r corners /usr/share/sddm/themes/ && sudo cp -r sddm.conf.d /etc/
   xdg-mime default nemo.desktop inode/directory # setup default file manager
   sudo ln -s /usr/share/fontconfig/conf.avail/51-local.conf # make link for fontconfig
   sudo cp some_another_files/local.conf /etc/fonts/
