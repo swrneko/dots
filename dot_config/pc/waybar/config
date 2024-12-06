@@ -56,7 +56,7 @@
     },
 
     "clock": {
-	"format-alt": "<span color='#8916db'></span>{:%a %b %d}",
+	"format-alt": "<span color='#8916db'> </span>{:%a %b %d}",
 	"format": "<span color='#8916db'> </span>{:%I:%M %p}",
         "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
     },
