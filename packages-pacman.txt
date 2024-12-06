@@ -83,3 +83,8 @@ sddm
 qt5-graphicaleffects 
 qt5-svg 
 qt5-quickcontrols2
+hyprland
+mpvaper
+libreoffice-fresh-ru
+prusa-slicer
+kitty
