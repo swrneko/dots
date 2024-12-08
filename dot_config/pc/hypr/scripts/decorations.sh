@@ -6,16 +6,24 @@ stacking_mode_is_toggle="`cat $var_stacking_mode`" # Включён ли staking
 
 
 # При аргументе --stacking-mode включение/выключение плагина hyprland hyprbars в зависимости от состояния плагина и добавление параметров в конфиг hyprland
-if [[ "$@" =~ "--stacking_mode" ]];
+if [[ "$@" =~ "--stacking-mode" ]];
 then
 
   if [ "$stacking_mode_is_toggle" == "false" ];
   then
     echo "true" > "$var_stacking_mode" # Изменение состояния stacking mode - включено
+    makoctl mode -a state
+    makoctl dismiss -a
+    notify-send "Mode: Stacking"
+    makoctl mode -t state
     sed -i '232i\windowrulev2 = float, class:.*' ~/.config/hypr/hyprland.conf # Добавление на 232 строку конфига hyprland режима floating по умолчанию
     hyprpm enable hyprbars -nn && hyprctl dismissnotify # Включение плагина hyprbars и отклонение уведомления о включении
   else
     echo "false" > "$var_stacking_mode" # Изменение состояния stacking mode - выключено
+    makoctl dismiss -a
+    makoctl mode -a state
+    notify-send "Mode: Frame"
+    makoctl mode -t state
     sed -i '/windowrulev2 = float, class:.*/d' ~/.config/hypr/hyprland.conf # Удаление 232 строки конфига hyprland режима floating по умолчанию
     hyprpm disable hyprbars && hyprctl dismissnotify  # Отключение плагина hyprbars и отклонение уведомления об отключении
   fi
