@@ -18,6 +18,8 @@ then
     makoctl mode -t state
     sed -i '232i\windowrulev2 = float, class:.*' ~/.config/hypr/hyprland.conf # Добавление на 232 строку конфига hyprland режима floating по умолчанию
     hyprpm enable hyprbars -nn && hyprctl dismissnotify # Включение плагина hyprbars и отклонение уведомления о включении
+    nwg-dock-hyprland -i 42 -mb 12 -l top -x -r
+
   else
     echo "false" > "$var_stacking_mode" # Изменение состояния stacking mode - выключено
     makoctl dismiss -a
@@ -26,6 +28,7 @@ then
     makoctl mode -t state
     sed -i '/windowrulev2 = float, class:.*/d' ~/.config/hypr/hyprland.conf # Удаление 232 строки конфига hyprland режима floating по умолчанию
     hyprpm disable hyprbars && hyprctl dismissnotify  # Отключение плагина hyprbars и отклонение уведомления об отключении
+    killall nwg-dock-hyprland
   fi
 
 fi

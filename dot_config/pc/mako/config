@@ -17,4 +17,4 @@ on-notify=exec mpg123
 [mode=state]
 default-timeout=2000
 layer=top
-on-notify=exec mpg123 ~/.config/system_sounds/notification.mp3
+on-notify=exec mpg123 
