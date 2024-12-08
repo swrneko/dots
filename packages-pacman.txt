@@ -89,3 +89,4 @@ libreoffice-fresh-ru
 prusa-slicer
 kitty
 wlr-protocols
+nwg-dock-hyprland
