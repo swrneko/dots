@@ -1,14 +1,14 @@
 {
     "height": 38, // Waybar height (to be removed for auto height)
     "layer": "top", // Waybar at top layer
-    "margin-top": 10,
-    "margin-left": 15,
+    "margin-top": 0,
+    "margin-left": 0,
     "margin-bottom": 0,
-    "margin-right": 15,
+    "margin-right": 0,
     "spacing": 5, // Gaps between modules (4px)
-    "modules-left": ["custom/apps", "tray", "hyprland/window"],
+    "modules-left": ["custom/apps", "custom/power-menu", "group/hardware", "group/settings", "hyprland/window"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["custom/updates", "backlight", "pulseaudio", "battery", "group/hardware", "custom/power-menu", "clock"],
+    "modules-right": ["custom/updates", "pulseaudio", "tray", "clock"],
     "hyprland/workspaces": {
       "format": "{icon}",
       "show-special": true,
@@ -32,25 +32,43 @@
     	"max-length": 35,
     },
     "tray": {
+        "icon-size": 18,
         "spacing": 10
     },
 
     "custom/spacer_slash": {
         "format": "/",
+        "tooltip": false
     },
     "custom/spacer_pipe": {
         "format": "|",
+        "tooltip": false
     },
     "custom/system": {
         "format": "",
         "tooltip": false
+    },
+    "custom/settings": {
+        "format": "",
+        "tooltip": false
+    },
+    "group/settings":{
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 300,
+            "children-class": "brightness",
+            "transition-left-to-right": true,
+            "click-to-reveal": true,
+        },
+        "modules": ["custom/settings", "battery", "custom/spacer_pipe", "backlight"],
     },
     "group/hardware": {
         "orientation": "inherit",
         "drawer": {
             "transition-duration": 300,
             "children-class": "not-memory",
-            "transition-left-to-right": false,
+            "transition-left-to-right": true,
+            "click-to-reveal": true,
         },
         "modules": ["custom/system", "cpu", "custom/spacer_slash", "memory", "custom/spacer_pipe", "network"]
     },
