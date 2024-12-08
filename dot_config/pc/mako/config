@@ -1,10 +1,10 @@
 font=0xProto Font Nerd 12
-background-color=#1d1f21b3
+background-color=#1d1f21e6
 text-color=#c5c8c6
 border-size=2
 border-color=#d59dfc
 border-radius=8
-margin=15, 870,
+margin=15, 870
 height=150
 width=300
 default-timeout=10000
@@ -16,4 +16,5 @@ on-notify=exec mpg123
 
 [mode=state]
 default-timeout=2000
+layer=top
 on-notify=exec mpg123 ~/.config/system_sounds/notification.mp3
