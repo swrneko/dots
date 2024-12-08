@@ -20,7 +20,7 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-#custom-apps {
+#custom-menu {
   color: #9616db;
   background-color: rgba(21, 23, 32, 0.65);
   padding: 0px 12px;
@@ -55,7 +55,7 @@ window#waybar.hidden {
 #window {
      padding-left: 0px;
      padding-right: 0px;
-     color: #db16d5;
+     color: #b016db;
 }
 
 #window {
@@ -122,8 +122,17 @@ window#waybar.hidden {
 
 #pulseaudio {
   background-color: rgba(21, 23, 32, 0.65);
-  color: #c416db;
+  color: #b016db;
   padding: 0px 12px;
+  border-radius: 18px;
+  margin: 4px 0px 4px 0px;
+}
+
+#custom-settings,
+#custom-system,
+#custom-apps{
+  color: #d59dfc;
+  padding: 0px 8px;
   border-radius: 18px;
   margin: 4px 0px 4px 0px;
 }
@@ -131,13 +140,6 @@ window#waybar.hidden {
 /*****************
 * GROUP SETTINGS *
 *****************/
-
-#custom-settings {
-  color: #d59dfc;
-  padding: 0px 8px;
-  border-radius: 18px;
-  margin: 4px 0px 4px 0px;
-}
 
 #battery {
   color: #a316db;
@@ -191,13 +193,6 @@ window#waybar.hidden {
 * GROUP SYSTEM *
 ***************/
 
-#custom-system {
-  color: #d59dfc;
-  padding: 0px 8px;
-  border-radius: 18px;
-  margin: 4px 0px 4px 0px;
-}
-
 #cpu {
   margin:0px;
   padding:0px 10px;
@@ -219,7 +214,7 @@ window#waybar.hidden {
 }
 
 #network {
-  color: #b016db;
+  color: #9616db;
   padding: 0px 12px;
   border-radius: 0px;
   border-top-right-radius: 18px;
@@ -232,6 +227,27 @@ window#waybar.hidden {
 * GROUP SYSTEM END *
 *******************/
 
+/*************
+* GROUP APPS *
+*************/
+
+#custom-terminal,
+#custom-browser,
+#custom-files,
+#custom-messenger,
+#custom-cad,
+#custom-slicer {
+  color: #C980FF;
+  padding: 0px 8px;
+  margin-bottom: -10px;
+  border-bottom: 2px solid #d59dfc;
+  padding-bottom: 0px;
+  margin: 4px 0px 4px 0px;
+}
+
+/*****************
+* GROUP APPS END *
+*****************/
 
 /**************
 * GROUPS TOOL *

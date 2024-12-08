@@ -6,7 +6,7 @@
     "margin-bottom": 0,
     "margin-right": 0,
     "spacing": 5, // Gaps between modules (4px)
-    "modules-left": ["custom/apps", "custom/power-menu", "group/hardware", "group/settings", "hyprland/window"],
+    "modules-left": ["custom/menu", "custom/power-menu", "group/launcher", "group/hardware", "group/settings", "hyprland/window"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["custom/updates", "pulseaudio", "tray", "clock"],
     "hyprland/workspaces": {
@@ -51,6 +51,44 @@
     "custom/settings": {
         "format": "",
         "tooltip": false
+    },
+    "custom/apps": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/terminal": {
+        "format": "",
+        "on-click": "alacritty",
+    },
+    "custom/browser": {
+        "format": "󰈹",
+        "on-click": "firefox",
+    },
+    "custom/files": {
+        "format": "",
+        "on-click": "nemo",
+    },
+    "custom/messenger": {
+        "format": "",
+        "on-click": "telegram-desktop",
+    },
+    "custom/cad": {
+        "format": "",
+        "on-click": "FreeCAD",
+    },
+    "custom/slicer": {
+        "format": "󰐫",
+        "on-click": "prusa-slicer",
+    },
+    "group/launcher": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 300,
+            "children-class": "brightness",
+            "transition-left-to-right": true,
+            "click-to-reveal": true,
+        },
+        "modules": ["custom/apps", "custom/browser", "custom/terminal", "custom/files", "custom/messenger", "custom/cad", "custom/slicer"],
     },
     "group/settings":{
         "orientation": "inherit",
@@ -144,36 +182,15 @@
       "format-icons": [" ", " ", " ", " ", " "],
     },
 
-    "custom/apps": {
-      "format": "Apps",
+    "custom/menu": {
+      "format": "Menu",
       "on-click": "wofi",
-    },
-
-    "custom/weather": {
-      "exec": "python3 ~/.config/waybar/scripts/weather.py",
-      "restart-interval": 300,
-      "return-type": "json",
-      "on-click": "xdg-open https://weather.com/en-IN/weather/today/l/a319796a4173829988d68c4e3a5f90c1b6832667ea7aaa201757a1c887ec667a"
-    },   
-
-   "custom/spotify": {
-    "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
-    "format": "{}  ",
-    "return-type": "json",
-    "on-click": "playerctl play-pause",
-    "on-double-click-right": "playerctl next",
-    "on-scroll-down": "playerctl previous",
     },
 
     "custom/power-menu": {
         "format": "⏻",
         "on-click": "wlogout",
     }, 
-    "custom/launcher": {
-        "format": "<span color='#6a92d7'></span>",
-        "on-click": "wofi",
-    },
-    
    "custom/updates": {
        "format": "{icon} {0}",
        "return-type": "json",
