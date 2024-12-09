@@ -93,15 +93,6 @@ window#waybar.hidden {
   background-color: rgba(77, 28, 125, 0.8);
 }
 
-#backlight {
-  color: #9616db;
-  /* color: #bf616a; */
-  background-color: rgba(21, 23, 32, 0.65);
-  padding: 0px 12px;
-  border-radius: 18px;
-  margin: 4px 0px 4px 0px;
-}
-
 #custom-updates {
   background-color: rgba(21, 23, 32, 0.65);
   padding: 0px 12px;
@@ -145,8 +136,9 @@ window#waybar.hidden {
   color: #a316db;
   background-color: rgba(21, 23, 32, 0.65);
   padding: 0px 12px;
-  border-radius: 12px;
-  margin: 4px 0px 4px 0px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  margin: 4px 0px 4px 4px;
 }
 
 #battery.charging,
@@ -155,8 +147,9 @@ window#waybar.hidden {
   background-color: rgba(21, 23, 32, 0.65);
   color: #a316db;
   padding: 0px 12px;
-  border-radius: 12px;
-  margin: 4px 0px 4px 0px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  margin: 4px 0px 4px 4px;
 }
 
 @keyframes blink {
@@ -174,15 +167,18 @@ window#waybar.hidden {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   padding: 0px 12px;
-  border-radius: 12px;
-  margin: 4px 0px 4px 0px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  margin: 4px 0px 4px 4px;
 }
 
 #backlight {
   color: #db16d5;
+  background-color: rgba(21, 23, 32, 0.65);
   padding: 0px 12px;
-  border-radius: 12px;
-  margin: 4px 0px 4px 0px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  margin: 4px 4px 4px 0px;
 }
 
 /*********************
