@@ -53,10 +53,14 @@
         "tooltip": false
     },
     "custom/window-mode": {
-        "format": "",
+        "format": "󱂬",
         "on-click": "~/.config/hypr/scripts/decorations.sh --stacking-mode"
     },
-    "custom/apps": {
+    "custom/window-toggle-maximize": {
+        "format": "",
+        "on-click": "hyprctl dispatch togglefloating"
+    },
+   "custom/apps": {
         "format": "",
         "tooltip": false
     },
@@ -102,7 +106,7 @@
             "transition-left-to-right": true,
             "click-to-reveal": true,
         },
-        "modules": ["custom/settings", "custom/window-mode"],
+        "modules": ["custom/settings", "custom/window-mode", "custom/window-toggle-maximize"],
     },
     "group/hardware": {
         "orientation": "inherit",

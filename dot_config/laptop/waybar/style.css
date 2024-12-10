@@ -177,7 +177,8 @@ window#waybar.hidden {
 * GROUP SETTINGS *
 *****************/
 
-#custom-window-mode {
+#custom-window-mode,
+#custom-window-toggle-maximize {
   color: #C980FF;
   padding: 0px 8px;
   margin: 4px 0px 4px 0px;
