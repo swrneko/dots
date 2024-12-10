@@ -8,7 +8,7 @@
     "spacing": 5, // Gaps between modules (4px)
     "modules-left": ["custom/menu", "custom/power-menu", "group/launcher", "group/hardware", "group/settings", "hyprland/window"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["custom/updates", "pulseaudio", "tray", "clock"],
+    "modules-right": ["custom/updates", "battery", "backlight", "pulseaudio", "tray", "clock"],
     "hyprland/workspaces": {
       "format": "{icon}",
       "show-special": true,
@@ -51,6 +51,10 @@
     "custom/settings": {
         "format": "",
         "tooltip": false
+    },
+    "custom/window-mode": {
+        "format": "",
+        "on-click": "~/.config/hypr/scripts/decorations.sh --stacking-mode"
     },
     "custom/apps": {
         "format": "",
@@ -98,7 +102,7 @@
             "transition-left-to-right": true,
             "click-to-reveal": true,
         },
-        "modules": ["custom/settings", "battery", "custom/spacer_pipe", "backlight"],
+        "modules": ["custom/settings", "custom/window-mode"],
     },
     "group/hardware": {
         "orientation": "inherit",
