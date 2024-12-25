@@ -33,6 +33,13 @@ then
 
 fi
 
+if [[ "$@" =~ "--wallpaper-restore" ]];
+then
+  waypaper --restore
+  waypaper --restore
+
+fi
+
 # При аргументе --startup-notify отображение стартового сообщения приветствия без звука
 if [[ "$@" =~ "--startup-notify" ]];
 then
