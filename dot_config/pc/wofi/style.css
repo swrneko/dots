@@ -40,15 +40,17 @@ window {
 }
 
 #text:selected {
+  background-color: transparent;
 }
 
 #entry {
   /* border: 2px solid; */
+  background-color: transparent;
 }
 
 #entry:focus {
+  background-color: transparent;
   border: 10px;
-  border-color: #000;
 }
 
 #entry:selected {

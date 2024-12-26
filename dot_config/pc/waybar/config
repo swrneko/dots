@@ -1,6 +1,6 @@
 {
     "height": 38, // Waybar height (to be removed for auto height)
-    "layer": "top", // Waybar at top layer
+    "layer": "bottom", // Waybar at top layer
     "margin-top": 0,
     "margin-left": 0,
     "margin-bottom": 0,
