@@ -5158,7 +5158,7 @@ layouttab {
   margin: 0 8px;
   border-style: none solid;
   border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.25);
+  border-color: #000000;
   box-shadow: inset 0 -2px #BA68C8;
   background-color: #0F0F0F;
 }
@@ -8408,7 +8408,7 @@ dialog.xfsm-logout-dialog {
  * Nemo *
  ********/
 .nemo-window .primary-toolbar {
-  background-color: #0F0F0F;
+  background-color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
