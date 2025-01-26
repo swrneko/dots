@@ -1,14 +1,15 @@
 {
-    "height": 38, // Waybar height (to be removed for auto height)
+    "position": "top",
+    "height": 24, // Waybar height (to be removed for auto height)
     "layer": "bottom", // Waybar at top layer
-    "margin-top": 0,
-    "margin-left": 0,
+    "margin-top": 10,
+    "margin-left": 15,
     "margin-bottom": 0,
-    "margin-right": 0,
+    "margin-right": 15,
     "spacing": 5, // Gaps between modules (4px)
-    "modules-left": ["custom/menu", "custom/power-menu", "group/launcher", "group/hardware", "group/settings", "hyprland/window"],
-    "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["custom/updates", "pulseaudio", "tray", "clock"],
+    "modules-left": ["custom/menu", "hyprland/workspaces", "hyprland/language"],
+    "modules-center": ["cpu", "clock", "memory"],
+    "modules-right": ["custom/updates", "pulseaudio", "tray", "custom/power-menu"],
     "hyprland/workspaces": {
       "format": "{icon}",
       "show-special": true,
@@ -27,9 +28,30 @@
     	"special": "",
       }
     },
+    "hyprland/language": {
+        "format": "{}",
+        "format-en": "US",
+        "format-ru": "RU",
+    },
     "hyprland/window": {
 	"format": "{initialTitle}",
     	"max-length": 35,
+    },
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 10,
+        "icon-theme": "Tela-circle-dracula-dark",
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "active-first": false,
+        "ignore-list": [
+        "Alacritty"
+        ],
+        "rewrite": {
+            "Firefox Web Browser": "Firefox",
+            "Foot Server": "Terminal"
+        }
     },
     "tray": {
         "icon-size": 18,
@@ -112,11 +134,22 @@
     },
 
     "clock": {
-	"format-alt": "<span> </span>{:%a %b %d}",
-	"format": "<span> </span>{:%I:%M %p}",
-        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+	    "format": " {:%B %d  %H:%M}",
+            "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode"          : "year",
+            "mode-mon-col"  : 3,
+            "weeks-pos"     : "right",
+            "on-scroll"     : 1,
+            "format": {
+                "months":     "<span color='#7aa2f7'><b>{}</b></span>",
+                "days":       "<span color='#cfc9c2'><b>{}</b></span>",
+                "weeks":      "<span color='#9ece6a'><b>W{}</b></span>",
+                "weekdays":   "<span color='#e0af68'><b>{}</b></span>",
+                "today":      "<span color='#bb9af7'><b><u>{}</u></b></span>",
+            }    
+        }
     },
-
     "cpu": {
       "interval": 5,
       "format": "󰍛 {usage}%",
@@ -183,8 +216,8 @@
     },
 
     "custom/menu": {
-      "format": "Menu",
-      "on-click": "wofi",
+      "format": "󰣇",
+      "on-click": "wofi -x 780 -y 15 --show drun",
     },
 
     "custom/power-menu": {
