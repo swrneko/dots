@@ -1,0 +1,42 @@
+foreground #dddddd
+background #151720
+background_opacity 0.75
+
+font_family      monospace
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+font_size 12.0
+
+# BLACK
+color0 #151720
+color8 #151720
+
+# RED
+color1 #ff7a93
+color9 #ff7a93
+
+# GREEN
+color2  #b9f27c
+color10 #b9f27c
+
+# YELLOW
+color3  #ff9e64
+color11 #ff9e64
+
+# BLUE
+color4  #7da6ff
+color12 #7da6ff
+
+# MANGETA
+color5  #bb9af7
+color13 #bb9af7
+
+# CYAN
+color6  #0db9d7
+color14 #0db9d7
+
+# WHITE
+color7  #acb0d0
+color15 #acb0d0
