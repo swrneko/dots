@@ -15,5 +15,7 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
+vim.deprecate = function() end
+
 require "lazy_setup"
 require "polish"
